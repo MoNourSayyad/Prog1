@@ -1,0 +1,78 @@
+\doxysection{Binary\+Tree.\+h}
+\hypertarget{BinaryTree_8h_source}{}\label{BinaryTree_8h_source}\mbox{\hyperlink{BinaryTree_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#ifndef\ BINTREE\_H}}
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#define\ BINTREE\_H}}
+\DoxyCodeLine{00003\ }
+\DoxyCodeLine{00004\ \textcolor{preprocessor}{\#include\ <stdbool.h>}}
+\DoxyCodeLine{00005\ \textcolor{preprocessor}{\#include\ <limits.h>}}
+\DoxyCodeLine{00006\ }
+\DoxyCodeLine{00007\ \textcolor{comment}{/*\ Struct\ definitions\ */}}
+\DoxyCodeLine{00008\ }
+\DoxyCodeLine{00009\ \textcolor{keyword}{typedef}\ \textcolor{keyword}{struct\ }\mbox{\hyperlink{structBTNode}{BTNode}}\ \{}
+\DoxyCodeLine{00010\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{structBTNode_a9b28574f7e5a4e6bb441070d2c1b1892}{value}};}
+\DoxyCodeLine{00011\ \ \ \ \ \textcolor{keyword}{struct\ }\mbox{\hyperlink{structBTNode}{BTNode}}*\ \mbox{\hyperlink{structBTNode_a26e7001ea648126e4ab5b381ed36b6a9}{left}};}
+\DoxyCodeLine{00012\ \ \ \ \ \textcolor{keyword}{struct\ }\mbox{\hyperlink{structBTNode}{BTNode}}*\ \mbox{\hyperlink{structBTNode_a35256b2fa394df858134c3bec49c8d06}{right}};}
+\DoxyCodeLine{00013\ \}\ \mbox{\hyperlink{structBTNode}{BTNode}};}
+\DoxyCodeLine{00014\ }
+\DoxyCodeLine{00015\ \textcolor{keyword}{typedef}\ \textcolor{keyword}{struct\ }\mbox{\hyperlink{structBinTree}{BinTree}}\ \{}
+\DoxyCodeLine{00016\ \ \ \ \ \mbox{\hyperlink{structBTNode}{BTNode}}*\ \mbox{\hyperlink{structBinTree_abc169e0be693a826327e641824a8893f}{first}};}
+\DoxyCodeLine{00017\ \}\ \mbox{\hyperlink{structBinTree}{BinTree}};}
+\DoxyCodeLine{00018\ }
+\DoxyCodeLine{00019\ \textcolor{comment}{/*\ Creation\ functions\ */}}
+\DoxyCodeLine{00020\ }
+\DoxyCodeLine{00021\ \mbox{\hyperlink{structBTNode}{BTNode}}*\ \mbox{\hyperlink{BinaryTree_8h_a66d0e4122b2b93615fdb613806a21748}{createBTNode}}(\textcolor{keywordtype}{int}\ value,\ \mbox{\hyperlink{structBTNode}{BTNode}}*\ left,\ \mbox{\hyperlink{structBTNode}{BTNode}}*\ right);}
+\DoxyCodeLine{00022\ \mbox{\hyperlink{structBinTree}{BinTree}}*\ \mbox{\hyperlink{BinaryTree_8h_a5067748cfc3d6cbe1c0da46c4d46e3f7}{createBinTree}}(\textcolor{keywordtype}{void});}
+\DoxyCodeLine{00023\ \mbox{\hyperlink{structBTNode}{BTNode}}*\ \mbox{\hyperlink{BinaryTree_8h_a7c5bbbd444bb3b83d7a0a96f335b1860}{createLeaf}}(\textcolor{keywordtype}{int}\ value);}
+\DoxyCodeLine{00024\ \mbox{\hyperlink{structBTNode}{BTNode}}*\ \mbox{\hyperlink{BinaryTree_8h_ab5c4cfef54749d280dc4b4cf5b2283df}{createNewLeaf}}(\textcolor{keywordtype}{int}\ value);}
+\DoxyCodeLine{00025\ }
+\DoxyCodeLine{00026\ \textcolor{comment}{/*\ Utility\ functions\ */}}
+\DoxyCodeLine{00027\ }
+\DoxyCodeLine{00028\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{BinaryTree_8h_a6375b4f2decb7d023be2267a0ba731ce}{sumOfBTNodes}}(\mbox{\hyperlink{structBTNode}{BTNode}}*\ tree);}
+\DoxyCodeLine{00029\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{BinaryTree_8h_a9e38e36d64149d03b2c8940c3869528f}{countTreeBTNodes}}(\mbox{\hyperlink{structBTNode}{BTNode}}*\ tree);}
+\DoxyCodeLine{00030\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{BinaryTree_8h_ab0df9342bd4150c6949216d7cf73c55b}{heightTree}}(\mbox{\hyperlink{structBTNode}{BTNode}}*\ tree);}
+\DoxyCodeLine{00031\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{BinaryTree_8h_af346316a7c772f06d63936daf0dfdb33}{heightOfTree}}(\mbox{\hyperlink{structBinTree}{BinTree}}*\ tree);}
+\DoxyCodeLine{00032\ }
+\DoxyCodeLine{00033\ \textcolor{comment}{/*\ Printing\ functions\ */}}
+\DoxyCodeLine{00034\ }
+\DoxyCodeLine{00035\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{BinaryTree_8h_a6d8d0403d5f3bb7487e574cc053ce314}{printTree}}(\mbox{\hyperlink{structBTNode}{BTNode}}*\ tree);}
+\DoxyCodeLine{00036\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{BinaryTree_8h_aa160e53e8969273ae182d81756767276}{PrintTreeWithTree}}(\mbox{\hyperlink{structBinTree}{BinTree}}*\ tree);}
+\DoxyCodeLine{00037\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{BinaryTree_8h_acb03c676cef9bbdda26000a15baf0473}{printInorder}}(\mbox{\hyperlink{structBTNode}{BTNode}}*\ tree);}
+\DoxyCodeLine{00038\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{BinaryTree_8h_a5cd3feefde2f014d24c3b21261c7ffc6}{printWithInorder}}(\mbox{\hyperlink{structBinTree}{BinTree}}*\ tree);}
+\DoxyCodeLine{00039\ }
+\DoxyCodeLine{00040\ \textcolor{comment}{/*\ Searching\ and\ checking\ */}}
+\DoxyCodeLine{00041\ }
+\DoxyCodeLine{00042\ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{BinaryTree_8h_aec4e2a6df010e3866b970de0256e2460}{containsTreeValue}}(\mbox{\hyperlink{structBTNode}{BTNode}}*\ tree,\ \textcolor{keywordtype}{int}\ value);}
+\DoxyCodeLine{00043\ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{BinaryTree_8h_ae2264727fcde777e13b97fe49596994f}{containsValue}}(\mbox{\hyperlink{structBinTree}{BinTree}}*\ tree,\ \textcolor{keywordtype}{int}\ value);}
+\DoxyCodeLine{00044\ }
+\DoxyCodeLine{00045\ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{BinaryTree_8h_ae4b1068a8c56256b3e760153de4804c7}{treesEqual}}(\mbox{\hyperlink{structBTNode}{BTNode}}*\ t1,\ \mbox{\hyperlink{structBTNode}{BTNode}}*\ t2);}
+\DoxyCodeLine{00046\ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{BinaryTree_8h_a42084d9fbd900868ef926b976f2f1f50}{treesAreEqual}}(\mbox{\hyperlink{structBinTree}{BinTree}}*\ t1,\ \mbox{\hyperlink{structBinTree}{BinTree}}*\ t2);}
+\DoxyCodeLine{00047\ }
+\DoxyCodeLine{00048\ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{BinaryTree_8h_ab8b3af6cb033fd720125df09e44fcd8b}{isOrdered}}(\mbox{\hyperlink{structBTNode}{BTNode}}*\ tree,\ \textcolor{keywordtype}{int}\ min,\ \textcolor{keywordtype}{int}\ max);}
+\DoxyCodeLine{00049\ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{BinaryTree_8h_a71e7914c55404f04ed2d79f1c82f1592}{isTreeOrdered}}(\mbox{\hyperlink{structBTNode}{BTNode}}*\ tree);}
+\DoxyCodeLine{00050\ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{BinaryTree_8h_a611d7ba4a72739ea71576e257dff3db7}{isBinTreeOrdered}}(\mbox{\hyperlink{structBinTree}{BinTree}}*\ tree);}
+\DoxyCodeLine{00051\ }
+\DoxyCodeLine{00052\ \textcolor{comment}{/*\ Copying\ */}}
+\DoxyCodeLine{00053\ }
+\DoxyCodeLine{00054\ \mbox{\hyperlink{structBTNode}{BTNode}}*\ \mbox{\hyperlink{BinaryTree_8h_a416cd1b9532b708691d31d4f8962e176}{copyTree}}(\mbox{\hyperlink{structBTNode}{BTNode}}*\ tree);}
+\DoxyCodeLine{00055\ \mbox{\hyperlink{structBTNode}{BTNode}}*\ \mbox{\hyperlink{BinaryTree_8h_ace14ebce5ac53b53085dcbb7b7d8c095}{copyTheTree}}(\mbox{\hyperlink{structBinTree}{BinTree}}*\ tree);}
+\DoxyCodeLine{00056\ }
+\DoxyCodeLine{00057\ \textcolor{comment}{/*\ Ordered\ insertion\ */}}
+\DoxyCodeLine{00058\ }
+\DoxyCodeLine{00059\ \mbox{\hyperlink{structBTNode}{BTNode}}*\ \mbox{\hyperlink{BinaryTree_8h_a0d688d5031295a7b85271c2db380f7d7}{insertOrdered}}(\mbox{\hyperlink{structBTNode}{BTNode}}*\ tree,\ \textcolor{keywordtype}{int}\ value);}
+\DoxyCodeLine{00060\ \mbox{\hyperlink{structBTNode}{BTNode}}*\ \mbox{\hyperlink{BinaryTree_8h_adc2a7908a25afdc5f088efe368e00fa9}{InsertionWithOrder}}(\mbox{\hyperlink{structBinTree}{BinTree}}*\ tree,\ \textcolor{keywordtype}{int}\ value);}
+\DoxyCodeLine{00061\ \mbox{\hyperlink{structBTNode}{BTNode}}*\ \mbox{\hyperlink{BinaryTree_8h_a37b9f113dfff1cabe064efd0fc5a1748}{InsertOrderedIteration}}(\mbox{\hyperlink{structBTNode}{BTNode}}*\ tree,\ \textcolor{keywordtype}{int}\ value);}
+\DoxyCodeLine{00062\ \mbox{\hyperlink{structBTNode}{BTNode}}*\ \mbox{\hyperlink{BinaryTree_8h_af9148dde8b5f0ce309dd78d4e05298b5}{InsertionWithOrderIter}}(\mbox{\hyperlink{structBinTree}{BinTree}}*\ tree,\ \textcolor{keywordtype}{int}\ value);}
+\DoxyCodeLine{00063\ }
+\DoxyCodeLine{00064\ \textcolor{comment}{/*\ Efficient\ search\ */}}
+\DoxyCodeLine{00065\ }
+\DoxyCodeLine{00066\ \mbox{\hyperlink{structBTNode}{BTNode}}*\ \mbox{\hyperlink{BinaryTree_8h_aba8b17b5df10cb39789a503428dfd865}{efficientSearchingMethod}}(\mbox{\hyperlink{structBTNode}{BTNode}}*\ tree,\ \textcolor{keywordtype}{int}\ value);}
+\DoxyCodeLine{00067\ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{BinaryTree_8h_a16bc0e6fba7c8d13ed126b58df926603}{efficientSearch}}(\mbox{\hyperlink{structBTNode}{BTNode}}*\ tree,\ \textcolor{keywordtype}{int}\ value);}
+\DoxyCodeLine{00068\ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{BinaryTree_8h_ad1b1db1290db8d553741dd6a0ce72d55}{efficientTreeSearch}}(\mbox{\hyperlink{structBinTree}{BinTree}}*\ tree,\ \textcolor{keywordtype}{int}\ value);}
+\DoxyCodeLine{00069\ }
+\DoxyCodeLine{00070\ \mbox{\hyperlink{structBTNode}{BTNode}}*\ \mbox{\hyperlink{BinaryTree_8h_a5226618ad87134b127ebbe6ceefa4702}{efficientSearchIterMethod}}(\mbox{\hyperlink{structBTNode}{BTNode}}*\ tree,\ \textcolor{keywordtype}{int}\ value);}
+\DoxyCodeLine{00071\ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{BinaryTree_8h_a58ddff3cfcc017ab695e3a9245824a88}{efficientSearchIter}}(\mbox{\hyperlink{structBTNode}{BTNode}}*\ tree,\ \textcolor{keywordtype}{int}\ value);}
+\DoxyCodeLine{00072\ }
+\DoxyCodeLine{00073\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{/*\ BINTREE\_H\ */}\textcolor{preprocessor}{}}
+
+\end{DoxyCode}

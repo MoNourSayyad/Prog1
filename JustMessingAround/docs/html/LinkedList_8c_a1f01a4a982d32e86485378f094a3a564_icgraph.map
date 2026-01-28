@@ -1,0 +1,9 @@
+<map id="createGenericNode" name="createGenericNode">
+<area shape="rect" id="Node000001" title="Creates a generic node with a copy of the given value." alt="" coords="180,55,327,80"/>
+<area shape="rect" id="Node000002" href="$LinkedList_8c.html#aaa7091796c80b5760d592509d37402bd" title=" " alt="" coords="5,5,132,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="191,54,117,33,118,28,193,49"/>
+<area shape="rect" id="Node000003" href="$LinkedList_8c.html#a4832fa19df99bbbada3693d60c207c4e" title=" " alt="" coords="21,55,116,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="166,70,116,70,116,65,166,65"/>
+<area shape="rect" id="Node000004" href="$LinkedList_8c.html#a840291bc02cba5474a4cb46a9b9566fe" title=" " alt="" coords="41,104,96,129"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="193,86,97,112,96,107,191,81"/>
+</map>

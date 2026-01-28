@@ -1,0 +1,1001 @@
+Year	Sex	Height	Name
+1988	m	1.76	Theo
+1978	m	1.74	Luca Logan
+1977	m	1.67	Ashton Shane
+1988	m	1.90	Sawyer Colby Logan
+1956	m	1.77	Spencer Ashton
+1993	f	1.62	Aubrey Hayden Jordan
+1960	m	1.76	Colby Theo Ryan
+1983	m	1.82	Reid Colby
+1990	m	1.84	Noah Hunter
+1987	m	1.81	Ellis Logan Jesse
+1967	f	1.60	Harper Hayden Madison
+1993	m	1.70	Sawyer Ryan Shane
+1994	m	1.86	Sawyer
+1955	f	1.65	Alexis Jordan Hayden
+1998	m	1.90	Ryan Ellis Colby
+1987	f	1.65	Casey
+1993	d	1.81	Shane Kai Logan
+1967	d	1.81	Micah Colby
+1951	m	1.66	Micah
+1958	m	1.88	Shane
+1980	m	1.73	Jesse Kai Parker
+1994	f	1.59	Reagan
+1959	d	1.53	Jesse Ryan
+1956	d	1.76	Parker Kai Hunter
+1965	m	1.89	Lane
+1987	m	1.81	Ryan Micah Jesse
+1975	f	1.60	Riley Bailey
+1954	m	1.68	Ashton Micah Luca
+1950	f	1.67	Morgan Reagan
+1988	f	1.56	Harper Peyton
+1998	m	1.88	Ashton
+1960	f	1.80	Taylor Peyton Aubrey
+1985	f	1.60	Rowan Taylor
+1957	f	1.65	Sierra Kelsey
+1975	m	1.86	Ellis Shane Spencer
+1984	m	1.91	Spencer Noah
+1976	m	1.98	Noah Spencer
+1991	f	1.77	Aubrey Rowan
+1954	f	1.64	Quinn Madison Skylar
+1991	m	1.74	Hunter
+1962	m	1.63	Jesse
+1958	d	1.59	Shane
+1963	f	1.80	Quinn Peyton Rowan
+1973	f	1.71	Taylor Morgan Quinn
+1973	m	1.74	Ellis
+1987	d	1.71	Theo Micah
+1960	f	1.74	Riley Madison
+1990	d	1.88	Bailey Sierra
+1955	f	1.66	Madison
+1963	m	1.67	Finn Hunter
+1978	m	1.65	Theo
+1997	m	1.77	Micah Lane
+1965	f	1.79	Jordan Alexis
+1987	f	1.51	Rowan Sydney
+1977	f	1.63	Sierra Skylar Jordan
+1979	m	1.88	Logan
+1972	m	1.81	Parker Ellis
+1956	f	1.78	Skylar Alexis Jordan
+1972	m	1.82	Jesse
+1961	m	1.81	Luca Micah
+1952	f	1.70	Harper Taylor
+1985	m	1.90	Shane
+1969	d	1.79	Harper Peyton
+1999	m	1.74	Colby
+1971	f	1.63	Taylor
+1974	f	1.51	Jordan Bailey
+1987	f	1.65	Bailey Morgan Harper
+1974	f	1.67	Quinn
+1984	m	1.80	Reid
+1986	d	1.65	Hunter
+1950	m	1.72	Ryan Reid
+1976	m	1.77	Jesse Micah Theo
+1991	f	1.55	Aubrey
+1964	f	1.80	Morgan Dakota Rowan
+1959	f	1.63	Rowan Dakota Aubrey
+1957	m	1.82	Reid Lane Noah
+1991	f	1.64	Alexis
+1951	m	1.73	Reid Ellis Noah
+1984	f	1.61	Taylor Jordan
+1972	f	1.52	Morgan
+1997	f	1.70	Quinn
+1970	m	1.68	Elliot
+1955	d	1.73	Luca Logan Kai
+1961	d	1.62	Peyton Bailey Sierra
+1989	m	1.70	Theo
+1995	m	1.77	Theo
+1986	m	1.84	Parker
+1967	d	1.77	Morgan Aubrey Peyton
+1986	m	1.81	Shane
+1999	f	1.62	Sydney Rowan
+1974	f	1.71	Riley
+1985	m	1.76	Lane Shane Ryan
+1986	m	1.85	Colby
+1969	m	1.73	Spencer Reid Jesse
+1957	f	1.54	Dakota Hayden Quinn
+1985	f	1.60	Hayden Aubrey
+1988	f	1.57	Casey Bailey Riley
+1988	f	1.75	Dakota Quinn
+1984	d	1.63	Ashton
+1971	d	1.73	Luca Sawyer
+1992	m	1.86	Spencer
+1976	f	1.78	Jordan Taylor
+1952	f	1.61	Dakota Riley Reagan
+1997	d	1.79	Quinn
+1968	m	1.94	Ashton Noah
+1987	f	1.58	Riley
+1983	m	1.87	Logan Reid
+1992	f	1.74	Skylar Bailey
+1975	f	1.51	Riley Quinn Hayden
+1965	f	1.70	Taylor Alexis
+1968	f	1.79	Aubrey Riley Jordan
+1988	m	1.79	Ryan
+1981	f	1.50	Jordan Kelsey
+1959	f	1.62	Rowan
+1966	f	1.65	Aubrey Alexis
+1979	f	1.64	Reagan
+1953	m	1.79	Micah
+1973	f	1.61	Taylor
+1961	f	1.63	Casey Alexis Aubrey
+1961	f	1.66	Kelsey Bailey
+1967	m	1.92	Sawyer
+1972	m	1.73	Reid Ashton Shane
+1971	m	1.82	Jesse Elliot Shane
+1993	m	1.85	Finn Spencer
+1975	f	1.62	Sydney Madison Sierra
+1953	m	1.90	Ashton Kai Spencer
+1967	m	1.88	Shane
+1967	m	1.83	Sawyer Luca Hunter
+1970	f	1.71	Peyton
+1982	m	1.86	Micah Finn
+1962	d	1.62	Sydney Morgan Casey
+1956	m	1.71	Colby Noah Micah
+1998	f	1.60	Alexis Taylor
+1991	m	1.72	Ellis Spencer
+1956	f	1.66	Reagan Kelsey
+1973	f	1.56	Harper Taylor Peyton
+1959	m	1.85	Colby Lane Hunter
+1983	m	1.76	Sawyer Hunter
+1978	m	1.90	Parker Lane Logan
+1965	f	1.57	Rowan Quinn
+1951	f	1.61	Sierra Sydney Bailey
+1951	m	1.86	Luca Ellis
+1981	f	1.46	Harper
+1991	m	1.76	Hunter
+1955	m	1.71	Reid
+1955	m	1.82	Spencer
+1952	f	1.63	Peyton Alexis Riley
+1963	d	1.66	Ashton
+1986	d	1.75	Ellis Luca
+1958	m	1.69	Shane Lane Parker
+1995	d	1.84	Spencer
+1963	f	1.64	Kelsey Reagan Sierra
+1970	m	1.84	Finn Lane
+1989	m	1.72	Shane Elliot
+1964	m	1.79	Micah
+1992	f	1.75	Alexis Sierra Reagan
+1951	f	1.64	Bailey Madison Sierra
+1957	f	1.61	Reagan
+1990	f	1.66	Bailey
+1977	m	1.81	Noah
+1994	m	1.88	Micah Finn Lane
+1973	m	1.67	Jesse
+1955	f	1.65	Aubrey
+1984	m	1.70	Luca Logan
+1983	m	1.86	Reid
+1960	m	1.88	Hunter Luca
+1983	f	1.68	Skylar
+1973	f	1.69	Skylar Dakota Peyton
+1986	f	1.61	Bailey Riley
+1951	f	1.49	Reagan
+1990	m	1.66	Hunter Noah
+1976	m	1.77	Finn
+1990	f	1.66	Alexis
+1967	m	1.78	Spencer Micah
+1964	m	1.76	Kai Hunter
+1997	d	1.67	Bailey
+1985	f	1.61	Peyton Reagan
+1971	f	1.65	Reagan Aubrey Dakota
+1996	d	1.65	Bailey Hayden
+1995	f	1.73	Sydney Riley
+1957	f	1.57	Reagan Morgan Casey
+1998	f	1.59	Reagan Riley
+1988	m	1.78	Jesse
+1958	f	1.61	Aubrey Skylar Morgan
+1969	f	1.60	Skylar
+1991	f	1.69	Riley Hayden
+1998	f	1.57	Quinn Jordan
+1963	m	1.72	Theo Lane Hunter
+1984	m	1.75	Kai
+1958	f	1.65	Riley
+1975	m	2.01	Logan
+1988	f	1.71	Rowan Skylar
+1997	m	1.85	Jesse Ryan Logan
+1989	f	1.70	Rowan Peyton
+1999	m	1.88	Ryan Jesse
+1987	m	1.84	Ashton Colby Micah
+1952	f	1.63	Sierra
+1965	d	1.44	Madison Kelsey
+1975	m	1.71	Ellis
+1973	d	1.61	Alexis
+1993	f	1.69	Peyton Madison Skylar
+1967	f	1.60	Madison Sydney
+1963	d	1.59	Sydney Morgan
+1996	f	1.63	Reagan Harper Taylor
+1958	m	1.70	Elliot Lane
+1957	m	1.85	Reid
+1985	f	1.47	Bailey
+1972	f	1.79	Aubrey
+1982	f	1.54	Rowan
+1992	m	1.70	Logan Parker
+1958	m	1.82	Ryan Micah Sawyer
+1985	f	1.67	Morgan
+1975	m	1.76	Logan Ryan
+1990	f	1.71	Dakota
+1970	m	1.86	Ryan Sawyer
+1956	m	1.90	Logan Theo
+1999	f	1.72	Harper Dakota Rowan
+1985	m	1.61	Spencer Noah Parker
+1968	m	1.72	Jesse
+1984	f	1.61	Morgan
+1968	f	1.61	Sydney Sierra
+1997	m	1.88	Micah
+1992	f	1.71	Peyton Dakota Quinn
+1973	f	1.63	Riley Hayden Jordan
+1976	f	1.63	Alexis Dakota Kelsey
+1992	m	1.94	Ellis
+1995	f	1.63	Taylor Casey
+1957	m	1.75	Finn Kai
+1995	f	1.63	Reagan
+1962	m	1.70	Shane
+1982	f	1.64	Bailey Kelsey
+1971	f	1.60	Sydney Hayden
+1995	f	1.51	Dakota
+1962	f	1.56	Morgan Jordan
+1956	f	1.80	Madison
+1984	m	1.89	Ellis Kai Elliot
+1950	f	1.57	Harper Taylor Dakota
+1993	m	1.77	Luca
+1971	f	1.73	Casey
+1972	m	1.86	Elliot Lane Sawyer
+1998	f	1.65	Aubrey
+1975	m	1.87	Theo Elliot
+1974	m	1.80	Lane
+1968	f	1.61	Sydney
+1984	f	1.66	Dakota Rowan
+1976	m	1.74	Spencer Ashton Finn
+1959	m	1.73	Shane Jesse Ryan
+1989	f	1.68	Morgan
+1966	m	1.72	Lane Kai Shane
+1976	f	1.74	Sierra Peyton
+1989	f	1.64	Taylor
+1967	d	1.66	Taylor Sierra
+1991	m	1.82	Logan Colby Ashton
+1951	m	1.75	Spencer Kai Luca
+1971	d	1.82	Aubrey
+1966	f	1.60	Peyton
+1959	f	1.52	Kelsey Sydney
+1952	m	1.88	Hunter Shane Elliot
+1954	d	1.81	Ashton Ryan Shane
+1997	d	1.69	Sydney
+1958	f	1.66	Sydney
+1958	m	1.86	Finn Theo Reid
+1967	f	1.62	Skylar Rowan
+1952	m	1.71	Parker Finn
+1989	m	1.89	Hunter
+1957	f	1.66	Sierra Sydney
+1960	m	1.79	Logan Luca Ashton
+1986	f	1.68	Quinn Sierra
+1970	m	1.69	Spencer Lane Ryan
+1981	f	1.63	Riley
+1977	f	1.58	Madison
+1971	f	1.66	Reagan Dakota
+1954	m	1.71	Kai Spencer Jesse
+1954	f	1.63	Reagan Kelsey Sierra
+1977	m	1.76	Spencer
+1972	f	1.73	Riley Skylar Reagan
+1951	m	1.84	Micah Shane
+1982	f	1.60	Riley
+1968	m	1.84	Ryan Jesse Elliot
+1998	m	1.95	Elliot Kai
+1992	f	1.67	Aubrey Rowan Morgan
+1992	m	1.92	Kai Spencer Elliot
+1981	f	1.81	Sydney
+1976	m	1.75	Luca Logan Ellis
+1977	f	1.64	Dakota Alexis Sydney
+1966	f	1.43	Sierra Madison
+1989	d	1.61	Aubrey Peyton Rowan
+1981	f	1.61	Dakota Riley Bailey
+1951	m	1.84	Finn
+1969	m	1.85	Reid
+1971	f	1.55	Casey Madison Reagan
+1973	f	1.77	Alexis Quinn
+1972	d	1.80	Bailey Harper Taylor
+1977	f	1.60	Bailey Peyton Sydney
+1958	m	1.84	Parker Theo
+1978	m	1.75	Ashton
+1974	m	1.77	Spencer Shane Reid
+1975	d	1.81	Peyton Taylor
+1973	m	1.90	Colby Elliot
+1972	f	1.60	Harper
+1950	m	1.73	Elliot Colby Finn
+1971	m	1.80	Micah Noah Ellis
+1974	m	1.90	Lane
+1986	f	1.70	Aubrey Morgan
+1961	m	1.87	Kai Theo Hunter
+1969	d	1.69	Micah Colby
+1987	m	1.68	Theo Colby
+1952	m	1.78	Theo Shane
+1952	m	1.74	Logan Parker
+1950	m	1.65	Spencer Elliot
+1994	m	1.87	Hunter
+1975	m	1.85	Ellis Colby Theo
+1974	d	1.61	Jordan
+1987	m	1.80	Theo Ashton Elliot
+1960	m	1.70	Ashton Elliot Shane
+1958	d	1.60	Harper Skylar Bailey
+1983	d	1.68	Skylar Morgan Casey
+1996	m	1.70	Ryan
+1978	m	1.75	Colby
+1994	m	1.79	Ashton Hunter Colby
+1964	f	1.72	Casey
+1980	f	1.70	Hayden
+1972	f	1.81	Hayden
+1978	m	1.74	Hunter Theo
+1999	m	1.75	Shane Sawyer Theo
+1973	f	1.62	Dakota Skylar
+1977	f	1.45	Quinn
+1953	f	1.61	Madison
+1952	f	1.67	Morgan
+1997	m	1.80	Shane Noah Ryan
+1980	f	1.80	Casey Madison
+1986	d	1.72	Dakota
+1967	m	1.87	Theo Ellis Elliot
+1950	m	1.82	Shane
+1975	d	1.81	Peyton Madison Kelsey
+1976	f	1.58	Alexis Skylar
+1961	m	1.83	Theo Ryan
+1994	m	1.74	Theo Elliot
+1992	d	1.81	Bailey
+1962	m	1.90	Shane Spencer Colby
+1994	f	1.63	Reagan Morgan Rowan
+1987	d	1.68	Ryan Theo
+1961	m	1.91	Micah Reid
+1961	m	1.90	Luca Finn Lane
+1975	f	1.70	Harper Taylor
+1991	f	1.67	Peyton Skylar
+1954	m	1.73	Lane Ellis Luca
+1984	m	1.80	Luca
+1987	m	1.66	Reid Logan Shane
+1958	f	1.55	Hayden Sydney
+1955	f	1.75	Casey Rowan
+1982	f	1.61	Alexis Sydney
+1958	d	1.82	Hunter Sawyer
+1977	f	1.62	Alexis Reagan Skylar
+1967	m	1.95	Kai Colby Theo
+1976	m	1.65	Spencer Theo Reid
+1988	d	1.68	Lane
+1998	m	1.87	Jesse Colby
+1977	m	1.83	Kai Lane
+1972	m	1.72	Ellis Hunter
+1952	f	1.68	Sydney
+1995	m	1.61	Sawyer Ryan
+1961	f	1.56	Jordan Peyton
+1973	m	1.80	Shane
+1984	f	1.75	Taylor Madison Morgan
+1955	f	1.59	Aubrey
+1951	f	1.63	Kelsey Reagan
+1957	m	1.81	Luca
+1976	m	1.84	Shane
+1952	m	1.61	Hunter Theo Finn
+1956	m	1.74	Ellis Logan
+1963	m	2.03	Reid
+1963	m	1.78	Micah
+1963	m	1.76	Parker Ellis
+1984	m	1.96	Parker Ellis Theo
+1970	f	1.45	Riley Casey Reagan
+1987	f	1.82	Skylar Taylor
+1987	d	1.90	Jesse Elliot
+1990	m	1.75	Jesse
+1966	f	1.59	Quinn
+1992	f	1.76	Riley
+1954	m	1.82	Logan
+1954	f	1.74	Harper Taylor
+1989	f	1.71	Kelsey
+1972	m	1.89	Reid Spencer
+1997	m	1.84	Lane
+1989	f	1.53	Sierra
+1998	m	1.65	Elliot
+1957	f	1.71	Reagan Dakota Casey
+1979	m	1.75	Ryan Kai
+1969	f	1.62	Sydney
+1970	m	1.77	Noah
+1973	m	1.84	Sawyer
+1951	f	1.75	Peyton Harper Bailey
+1988	m	1.81	Micah
+1986	f	1.58	Riley Madison
+1995	m	1.77	Theo
+1968	f	1.54	Kelsey Skylar Morgan
+1961	f	1.67	Quinn Riley
+1954	m	1.76	Logan Sawyer Micah
+1983	m	1.74	Spencer Luca
+1976	m	1.73	Sawyer Ryan Lane
+1996	f	1.62	Alexis Peyton
+1953	f	1.57	Rowan Kelsey Hayden
+1979	m	1.77	Reid Elliot
+1966	m	1.73	Kai
+1959	f	1.67	Morgan Harper
+1975	f	1.50	Harper
+1972	f	1.58	Skylar
+1986	m	1.50	Jesse Ryan
+1969	f	1.72	Riley
+1967	f	1.72	Rowan
+1994	f	1.65	Sydney Reagan Harper
+1998	m	1.69	Reid
+1971	m	1.79	Ryan
+1975	f	1.74	Quinn Dakota
+1989	f	1.59	Sydney Reagan Peyton
+1976	m	1.69	Ashton Ryan
+1974	m	1.70	Lane Luca Noah
+1977	f	1.56	Taylor Kelsey
+1972	f	1.74	Jordan Alexis Sierra
+1957	m	1.89	Finn Micah Reid
+1959	f	1.73	Aubrey Kelsey Morgan
+1997	m	1.76	Luca Lane
+1986	f	1.61	Hayden
+1958	f	1.58	Jordan
+1966	m	1.80	Finn
+1999	m	1.82	Finn Theo Ryan
+1992	f	1.77	Madison
+1964	f	1.82	Riley
+1994	f	1.58	Alexis
+1997	m	1.74	Logan Colby
+1963	f	1.67	Riley Casey
+1997	d	1.73	Finn Theo Spencer
+1965	m	1.69	Lane Micah
+1991	m	1.72	Micah
+1954	m	1.72	Colby Finn Lane
+1974	m	1.79	Theo
+1977	m	1.92	Spencer
+1984	f	1.68	Sierra Taylor
+1965	f	1.55	Morgan
+1965	m	1.68	Lane Jesse Spencer
+1951	f	1.74	Riley
+1975	f	1.65	Rowan
+1985	f	1.74	Aubrey Quinn
+1955	f	1.56	Casey Skylar Harper
+1998	f	1.81	Skylar Rowan
+1988	f	1.61	Madison Bailey Alexis
+1960	f	1.70	Harper Morgan
+1967	d	1.75	Ellis Hunter
+1976	d	1.87	Theo Reid
+1957	m	1.85	Hunter Ryan Sawyer
+1993	f	1.51	Aubrey Jordan Kelsey
+1994	f	1.70	Skylar Morgan Casey
+1964	d	1.60	Hunter Sawyer Reid
+1983	f	1.64	Aubrey Quinn
+1955	d	1.55	Riley Dakota Sydney
+1952	f	1.68	Alexis Jordan Skylar
+1955	f	1.68	Bailey Peyton Sierra
+1974	f	1.61	Kelsey Skylar Alexis
+1951	d	1.79	Elliot Sawyer Spencer
+1991	m	1.70	Ryan
+1963	m	1.81	Kai Elliot
+1977	f	1.61	Sydney Sierra
+1966	f	1.59	Jordan Rowan Harper
+1995	d	1.60	Elliot Ellis
+1991	m	1.75	Theo Reid Colby
+1996	m	1.89	Spencer
+1959	f	1.74	Taylor
+1970	d	1.51	Noah Shane
+1969	m	1.79	Hunter
+1981	d	1.87	Morgan
+1987	m	1.69	Micah Reid
+1970	m	1.86	Elliot Colby Hunter
+1959	m	1.84	Elliot Ellis Noah
+1963	f	1.66	Casey Morgan
+1975	m	1.68	Logan Luca
+1965	m	1.74	Lane
+1981	f	1.71	Peyton Alexis
+1957	f	1.67	Bailey
+1970	f	1.49	Skylar
+1974	f	1.74	Sierra Madison Casey
+1984	m	1.82	Parker Reid Theo
+1983	f	1.59	Alexis Madison Rowan
+1969	f	1.67	Aubrey Alexis Jordan
+1998	f	1.71	Sydney
+1966	d	1.75	Jordan Bailey
+1998	f	1.72	Sierra
+1972	d	1.72	Sydney Hayden Taylor
+1969	m	1.77	Elliot Shane
+1982	f	1.72	Morgan
+1963	m	1.64	Micah Reid
+1978	f	1.66	Peyton
+1962	m	1.85	Spencer
+1996	f	1.83	Harper Morgan
+1999	f	1.80	Bailey
+1997	f	1.58	Madison Bailey Kelsey
+1951	f	1.71	Morgan Peyton Skylar
+1985	f	1.66	Jordan
+1965	d	1.54	Riley Rowan
+1990	m	1.85	Kai Elliot
+1950	m	1.75	Theo Noah
+1995	m	1.81	Logan Lane
+1996	f	1.65	Reagan Hayden
+1969	m	1.78	Colby
+1987	m	1.79	Micah
+1973	m	1.85	Theo Logan
+1985	f	1.67	Casey Sierra Skylar
+1999	f	1.56	Kelsey
+1993	f	1.78	Hayden Casey Madison
+1957	m	1.81	Elliot Micah Reid
+1974	d	1.75	Taylor Rowan Skylar
+1979	m	1.87	Spencer
+1979	m	1.76	Shane Hunter
+1972	m	1.84	Noah Lane Colby
+1982	m	1.96	Noah Logan Finn
+1976	m	1.76	Sawyer Luca
+1989	f	1.65	Peyton Taylor Morgan
+1988	f	1.46	Sydney Sierra
+1982	m	1.68	Reid
+1996	f	1.71	Rowan
+1957	f	1.67	Peyton Sydney Alexis
+1970	d	1.56	Ashton Lane Parker
+1962	m	1.87	Lane Ryan
+1988	f	1.65	Reagan Sierra Jordan
+1999	m	1.83	Parker Hunter
+1962	f	1.61	Taylor
+1968	f	1.59	Sierra
+1965	m	1.86	Spencer Jesse Logan
+1967	m	1.73	Jesse Ashton Theo
+1967	f	1.70	Riley Casey Morgan
+1987	f	1.71	Harper
+1999	f	1.57	Sydney Casey
+1986	m	1.77	Sawyer Shane
+1984	m	1.78	Kai
+1978	m	1.89	Shane Hunter Reid
+1962	f	1.49	Sierra Dakota
+1997	f	1.69	Sierra Reagan
+1986	m	1.95	Lane Colby Spencer
+1975	f	1.70	Dakota Bailey Quinn
+1952	f	1.55	Alexis Casey Reagan
+1991	m	1.91	Logan Finn
+1979	m	1.78	Elliot
+1979	m	1.72	Sawyer
+1954	d	1.73	Kelsey Rowan Alexis
+1959	m	1.72	Elliot Colby Sawyer
+1979	f	1.47	Sydney Kelsey
+1986	d	1.80	Logan Lane
+1958	f	1.58	Sydney
+1982	f	1.76	Riley
+1956	f	1.80	Riley Alexis Aubrey
+1978	f	1.66	Madison Alexis Hayden
+1979	m	1.78	Finn Elliot Reid
+1950	f	1.67	Hayden
+1987	f	1.61	Taylor Reagan
+1959	d	1.85	Dakota Reagan Sydney
+1972	f	1.46	Jordan Skylar Aubrey
+1972	m	1.88	Jesse Colby
+1951	f	1.64	Reagan Sydney Sierra
+1999	m	1.79	Shane Ashton Luca
+1993	f	1.65	Aubrey Hayden
+1984	m	1.74	Lane Logan Ryan
+1988	f	1.55	Alexis Casey
+1999	d	1.75	Peyton Hayden Madison
+1964	m	1.78	Spencer Ellis
+1967	f	1.68	Morgan Quinn
+1966	m	1.91	Kai Shane
+1973	d	1.64	Parker
+1967	f	1.64	Jordan Alexis
+1964	d	1.75	Quinn Madison Alexis
+1997	f	1.62	Jordan Harper
+1954	f	1.53	Sierra Casey
+1954	f	1.84	Bailey Dakota Jordan
+1998	m	1.88	Shane
+1977	f	1.69	Sydney Peyton
+1964	f	1.69	Riley Casey Rowan
+1966	m	1.72	Luca Elliot Parker
+1999	m	1.66	Micah
+1990	f	1.65	Dakota Skylar Kelsey
+1969	m	1.91	Logan Micah Kai
+1975	f	1.68	Sydney Quinn Aubrey
+1987	f	1.69	Madison Rowan
+1960	m	1.65	Parker
+1959	f	1.50	Reagan Madison Morgan
+1998	f	1.66	Skylar Aubrey
+1966	m	1.58	Ashton Shane Luca
+1957	f	1.68	Casey Hayden Sierra
+1999	m	1.80	Parker Noah
+1973	m	1.96	Noah
+1998	m	1.82	Kai Jesse Elliot
+1996	f	1.69	Hayden Kelsey
+1982	m	1.80	Theo Noah Ellis
+1980	f	1.68	Dakota Sydney Skylar
+1958	f	1.68	Sydney Jordan
+1962	m	1.72	Ryan
+1957	f	1.65	Bailey Quinn
+1981	m	1.69	Jesse Parker Elliot
+1950	f	1.48	Riley
+1973	f	1.68	Riley Reagan
+1964	m	1.95	Sawyer
+1969	f	1.67	Morgan Dakota Rowan
+1979	f	1.59	Rowan Reagan Sydney
+1986	d	1.82	Ryan
+1986	f	1.76	Sydney Hayden Taylor
+1961	m	1.77	Spencer Kai
+1990	f	1.65	Jordan Alexis
+1984	m	1.82	Hunter
+1954	m	1.82	Shane Ryan Luca
+1968	m	1.79	Ryan
+1966	f	1.64	Bailey Sydney
+1978	d	1.81	Reagan
+1976	f	1.48	Casey
+1991	f	1.56	Casey Jordan
+1979	f	1.71	Reagan Dakota
+1967	m	1.82	Shane
+1963	f	1.69	Hayden Madison
+1955	d	1.72	Aubrey Reagan
+1998	f	1.72	Alexis Kelsey Harper
+1995	m	1.92	Ryan
+1954	f	1.65	Taylor
+1971	f	1.61	Kelsey Jordan Reagan
+1996	f	1.65	Quinn Sydney Hayden
+1950	f	1.58	Peyton Casey Kelsey
+1957	m	1.75	Parker
+1990	f	1.70	Jordan Hayden
+1983	m	1.76	Ashton Colby Reid
+1992	f	1.61	Hayden
+1983	f	1.58	Dakota
+1958	d	1.67	Kai
+1982	m	1.79	Theo
+1970	m	1.81	Logan
+1982	m	1.73	Shane Spencer
+1953	m	1.80	Noah
+1986	f	1.66	Quinn Sierra
+1964	m	1.72	Reid Jesse Micah
+1987	m	1.77	Jesse Noah Micah
+1973	m	1.68	Logan Theo
+1966	m	1.72	Luca Noah Reid
+1968	f	1.77	Casey Peyton
+1971	f	1.75	Alexis
+1992	m	1.84	Ashton Ryan
+1976	f	1.61	Sydney Harper
+1998	m	1.72	Spencer Micah Logan
+1996	m	1.84	Finn Micah
+1975	m	1.79	Reid
+1968	m	1.88	Reid Ashton Shane
+1980	m	1.87	Elliot Colby
+1951	f	1.61	Taylor Sierra
+1984	f	1.71	Alexis Casey Aubrey
+1967	f	1.63	Kelsey
+1953	f	1.65	Bailey Reagan
+1971	f	1.70	Rowan Quinn
+1966	d	1.64	Sawyer
+1951	d	1.87	Alexis Madison
+1976	f	1.70	Taylor
+1977	f	1.59	Morgan Harper
+1989	f	1.65	Alexis
+1962	f	1.68	Skylar Riley
+1962	m	1.75	Noah Sawyer
+1986	f	1.75	Harper Sydney Aubrey
+1988	f	1.63	Hayden Casey Rowan
+1988	f	1.71	Dakota Sydney
+1965	m	1.76	Shane Finn Elliot
+1960	f	1.42	Hayden Alexis Harper
+1988	m	1.94	Noah
+1960	f	1.65	Quinn Peyton
+1994	m	1.71	Shane
+1977	f	1.58	Alexis Reagan
+1955	f	1.61	Alexis Riley
+1977	f	1.57	Quinn Peyton
+1977	f	1.60	Kelsey Riley
+1969	d	1.65	Kai
+1955	m	1.53	Logan Finn
+1956	m	1.60	Luca Elliot Logan
+1963	f	1.49	Bailey
+1970	d	1.78	Luca
+1966	m	1.63	Luca Shane Lane
+1997	f	1.58	Harper Jordan
+1981	f	1.68	Aubrey Kelsey
+1972	m	1.77	Kai Shane Logan
+1953	f	1.70	Morgan Rowan
+1959	f	1.49	Hayden Sierra Kelsey
+1986	m	1.81	Parker Micah
+1999	f	1.53	Bailey
+1998	m	1.78	Elliot Micah Luca
+1995	f	1.59	Alexis Hayden Bailey
+1981	f	1.61	Alexis Harper Skylar
+1989	m	1.80	Reid
+1990	m	1.69	Ellis Kai Jesse
+1953	m	1.85	Parker Noah
+1955	f	1.60	Aubrey Peyton
+1951	d	1.69	Kelsey Madison Quinn
+1955	d	1.76	Taylor Quinn
+1988	f	1.53	Morgan Hayden Skylar
+1954	m	1.79	Kai Sawyer
+1988	m	1.73	Lane Ellis Luca
+1988	m	1.82	Ryan
+1977	f	1.64	Taylor
+1962	d	1.83	Quinn Sierra
+1962	f	1.61	Alexis
+1952	m	1.89	Elliot Kai Hunter
+1999	m	1.63	Theo Finn
+1988	m	1.76	Jesse Ellis
+1998	f	1.62	Alexis Madison
+1954	d	1.71	Colby
+1999	f	1.67	Alexis Madison
+1983	m	1.69	Hunter Sawyer Luca
+1985	f	1.69	Dakota Casey Sierra
+1952	m	1.86	Finn Hunter
+1997	f	1.69	Hayden
+1970	m	1.89	Noah Reid
+1957	f	1.58	Taylor Alexis
+1984	f	1.80	Harper
+1960	f	1.53	Aubrey Hayden
+1987	m	1.78	Lane Noah Ryan
+1959	f	1.61	Bailey Alexis Rowan
+1968	f	1.72	Dakota Morgan Sierra
+1971	d	1.76	Ryan
+1958	m	1.84	Sawyer Ellis Reid
+1959	m	1.79	Jesse Reid
+1962	f	1.78	Reagan
+1992	m	1.78	Jesse Ashton Sawyer
+1955	f	1.66	Alexis Riley Reagan
+1966	f	1.68	Sydney Sierra
+1998	m	1.85	Micah Noah Luca
+1964	m	1.78	Hunter
+1956	f	1.60	Sydney Taylor
+1990	m	1.86	Shane
+1995	m	1.74	Noah Reid
+1990	f	1.66	Peyton Rowan Alexis
+1985	f	1.63	Alexis
+1992	d	1.74	Parker
+1955	m	1.84	Parker Sawyer Spencer
+1981	m	1.94	Parker
+1953	m	1.83	Theo Jesse
+1985	m	1.65	Elliot Lane
+1958	f	1.63	Sydney Peyton
+1953	m	1.73	Ashton Noah
+1968	m	1.76	Theo Lane Kai
+1965	f	1.75	Alexis Sydney Riley
+1978	f	1.43	Sydney Rowan
+1992	f	1.61	Casey Dakota Aubrey
+1986	m	1.86	Luca Ryan
+1954	m	1.89	Theo Spencer
+1952	m	1.71	Spencer
+1953	f	1.51	Dakota Alexis Harper
+1952	m	1.78	Ellis Luca Shane
+1975	f	1.75	Peyton
+1977	f	1.76	Aubrey Morgan Riley
+1958	f	1.67	Hayden
+1971	m	1.69	Theo
+1993	m	1.77	Elliot Hunter Ryan
+1985	f	1.76	Quinn Madison
+1965	d	1.63	Skylar Peyton Sydney
+1961	m	1.94	Finn Ashton
+1957	m	1.76	Theo
+1992	m	1.65	Micah Reid Noah
+1976	m	1.86	Spencer Jesse
+1973	m	1.74	Theo
+1974	f	1.59	Madison Reagan
+1972	f	1.69	Skylar
+1977	f	1.59	Reagan
+1971	m	1.65	Logan Noah Luca
+1979	f	1.71	Alexis
+1990	d	1.66	Sawyer Ashton
+1950	m	1.75	Ellis Theo
+1994	m	1.76	Elliot Ashton Sawyer
+1972	m	1.76	Parker Lane Sawyer
+1980	f	1.79	Alexis Sydney
+1999	f	1.71	Reagan
+1990	f	1.57	Riley Hayden
+1993	f	1.73	Reagan Aubrey
+1983	f	1.74	Dakota Madison Hayden
+1972	f	1.53	Skylar Harper Aubrey
+1990	f	1.65	Sierra
+1950	m	1.62	Kai
+1978	m	1.89	Elliot
+1962	f	1.53	Madison Quinn
+1972	m	1.87	Elliot
+1967	m	1.79	Colby
+1954	m	1.72	Micah Luca Logan
+1985	m	1.84	Parker Spencer Finn
+1967	m	1.76	Spencer Sawyer
+1951	f	1.73	Madison Skylar Alexis
+1979	f	1.70	Alexis Rowan
+1967	f	1.61	Skylar
+1974	f	1.62	Rowan Madison Riley
+1962	f	1.53	Quinn Peyton
+1970	d	1.62	Logan Noah Ashton
+1950	d	1.63	Sawyer Shane
+1980	m	1.79	Kai Parker Finn
+1997	d	1.67	Noah
+1988	m	1.57	Lane
+1992	m	1.78	Spencer Ashton Luca
+1953	f	1.68	Quinn
+1988	m	1.73	Colby Parker
+1952	m	1.71	Spencer Reid Finn
+1974	m	1.79	Shane Hunter
+1997	m	1.63	Sawyer Logan Ryan
+1979	f	1.65	Kelsey Harper
+1995	m	1.84	Ashton Finn
+1983	f	1.59	Morgan Kelsey Aubrey
+1961	m	1.75	Jesse Ashton
+1991	f	1.73	Sierra Harper Rowan
+1988	f	1.69	Jordan
+1974	d	1.66	Parker Theo Luca
+1958	f	1.64	Kelsey
+1996	m	1.73	Spencer Sawyer Hunter
+1971	f	1.58	Casey Sydney Skylar
+1990	m	1.77	Ryan Parker Logan
+1996	m	1.99	Noah
+1971	f	1.71	Casey
+1978	f	1.50	Rowan Kelsey Madison
+1974	m	1.84	Spencer Ellis Reid
+1971	d	1.77	Riley Sydney Harper
+1955	f	1.61	Peyton
+1958	m	1.79	Luca
+1963	m	1.69	Logan Noah Finn
+1954	m	1.77	Spencer Shane Luca
+1959	f	1.52	Dakota Riley
+1964	m	1.89	Luca
+1995	f	1.64	Riley Skylar
+1997	f	1.70	Madison Harper
+1954	d	1.73	Parker Logan Elliot
+1989	d	1.71	Morgan Bailey
+1967	f	1.68	Quinn
+1992	f	1.64	Taylor Sierra
+1989	m	1.84	Theo Parker
+1970	f	1.78	Bailey Madison Alexis
+1950	m	1.80	Elliot Colby Ashton
+1990	m	1.64	Parker Micah
+1955	m	1.67	Sawyer
+1951	m	1.69	Finn Ryan Colby
+1990	f	1.53	Quinn Alexis
+1976	m	1.71	Shane Kai Spencer
+1978	f	1.66	Sydney
+1994	f	1.68	Hayden Casey
+1966	f	1.73	Hayden Madison Harper
+1972	m	1.84	Luca
+1952	m	1.81	Jesse Reid
+1998	d	1.68	Theo Micah
+1998	f	1.66	Hayden Jordan
+1980	d	1.72	Kelsey
+1995	f	1.72	Skylar
+1976	m	1.63	Logan
+1955	m	1.80	Luca Kai
+1950	m	1.88	Finn
+1988	f	1.70	Harper Rowan Dakota
+1983	m	1.70	Lane Ashton Elliot
+1990	m	1.82	Colby Logan Reid
+1961	f	1.53	Jordan Skylar
+1965	m	1.78	Theo Reid Logan
+1976	m	1.74	Hunter Reid
+1971	m	1.81	Parker
+1997	f	1.67	Casey Sierra
+1969	m	1.85	Logan Spencer
+1967	f	1.64	Peyton
+1966	m	1.68	Parker
+1993	m	1.91	Ashton Ellis
+1969	d	1.73	Reid Logan
+1972	m	1.71	Reid
+1987	f	1.58	Sierra Sydney
+1964	f	1.75	Quinn
+1993	f	1.77	Peyton
+1956	m	1.73	Ryan
+1960	f	1.75	Riley Alexis Hayden
+1977	m	1.79	Ryan
+1951	m	1.74	Theo Sawyer
+1975	m	1.78	Luca
+1951	m	1.89	Theo Ryan
+1971	m	1.74	Kai
+1996	f	1.70	Skylar Quinn Harper
+1961	f	1.63	Quinn Taylor Rowan
+1972	f	1.60	Casey
+1956	m	1.66	Ryan Colby
+1987	d	1.71	Skylar
+1961	f	1.53	Riley
+1957	f	1.71	Madison
+1991	f	1.62	Quinn
+1963	m	1.72	Jesse Hunter Ellis
+1955	m	1.90	Kai
+1971	f	1.71	Reagan Riley
+1960	m	1.85	Colby
+1965	m	1.75	Kai Ellis Luca
+1962	m	1.81	Logan Ashton
+1982	f	1.49	Morgan Sierra
+1978	f	1.68	Alexis Taylor
+1971	f	1.68	Alexis Hayden Taylor
+1982	f	1.54	Casey Kelsey
+1981	d	1.83	Logan Ellis Ryan
+1978	m	1.86	Theo Shane
+1990	m	1.73	Reid
+1990	m	1.86	Luca
+1990	f	1.53	Dakota
+1984	f	1.57	Bailey
+1962	m	1.86	Kai Ellis Shane
+1972	f	1.60	Skylar Morgan
+1961	f	1.51	Taylor Bailey
+1951	f	1.51	Kelsey Bailey Quinn
+1983	f	1.63	Taylor Dakota Kelsey
+1963	m	1.82	Luca Finn Hunter
+1995	f	1.65	Kelsey Rowan Sydney
+1966	f	1.66	Peyton Jordan Sydney
+1992	f	1.46	Aubrey Alexis Madison
+1976	f	1.61	Reagan Taylor Rowan
+1967	f	1.70	Morgan Hayden
+1968	m	1.62	Theo Finn
+1962	f	1.64	Harper
+1973	m	1.76	Reid Lane
+1954	m	1.72	Hunter Ellis
+1967	f	1.73	Harper Morgan Jordan
+1952	m	1.75	Spencer Kai Jesse
+1954	f	1.66	Morgan Quinn
+1951	m	1.77	Luca Elliot Sawyer
+1967	d	1.48	Spencer Sawyer Shane
+1987	m	1.86	Reid
+1986	m	1.68	Spencer Micah Jesse
+1985	m	1.83	Ellis Parker Jesse
+1951	f	1.60	Morgan
+1978	m	1.96	Jesse Lane Finn
+1998	f	1.67	Riley Dakota
+1996	f	1.67	Morgan Riley
+1968	f	1.59	Sierra
+1981	f	1.73	Sydney Harper Riley
+1987	m	1.64	Lane
+1989	m	1.91	Ashton Parker Theo
+1955	m	1.71	Lane Shane
+1955	d	1.71	Logan Parker Shane
+1991	m	1.81	Elliot Shane Hunter
+1966	f	1.66	Peyton
+1959	f	1.56	Casey Sydney Kelsey
+1965	m	1.72	Sawyer Kai
+1975	f	1.69	Reagan Morgan Dakota
+1954	f	1.54	Jordan
+1960	m	1.69	Noah Sawyer Luca
+1980	m	1.84	Colby Kai Lane
+1955	m	1.79	Hunter Luca Theo
+1999	f	1.71	Bailey Morgan
+1982	m	1.81	Ryan Hunter
+1958	m	1.92	Kai
+1984	m	1.77	Elliot Sawyer Spencer
+1966	m	1.79	Parker
+1978	m	1.75	Noah Parker Sawyer
+1979	f	1.76	Sierra Madison Riley
+1993	f	1.60	Taylor Harper
+1994	f	1.73	Skylar Dakota
+1971	f	1.54	Hayden
+1983	d	1.66	Harper Bailey
+1969	m	1.81	Hunter
+1968	f	1.61	Hayden Sierra Jordan
+1959	m	1.82	Spencer Luca Hunter
+1972	f	1.50	Aubrey Sierra
+1992	f	1.77	Hayden Morgan Sierra
+1957	f	1.59	Peyton Harper
+1966	f	1.70	Sydney Bailey Sierra
+1968	d	1.66	Rowan
+1988	m	1.91	Kai
+1959	m	1.81	Colby Parker
+1952	f	1.77	Harper Kelsey Sierra
+1962	m	1.77	Reid Lane Parker
+1963	f	1.59	Sierra Reagan
+1981	m	1.84	Ashton Elliot Logan
+1952	m	1.83	Parker Lane Micah
+1983	m	1.74	Ellis Finn
+1980	f	1.71	Skylar
+1979	m	1.80	Kai Jesse Ryan
+1962	m	1.83	Logan
+1958	m	1.77	Ellis Jesse
+1987	m	1.92	Jesse Hunter Finn
+1975	f	1.73	Madison
+1969	m	1.77	Micah Jesse Elliot
+1994	m	1.75	Hunter Reid
+1965	m	1.79	Finn Theo Kai
+1975	m	1.71	Colby Ellis Lane
+1964	d	1.59	Hunter Noah
+1957	f	1.62	Sydney
+1990	f	1.75	Dakota Morgan Taylor
+1968	d	1.72	Spencer
+1995	m	1.69	Hunter
+1994	f	1.53	Riley Sydney Skylar
+1963	f	1.64	Madison Peyton Casey
+1986	d	1.74	Rowan
+1968	f	1.61	Bailey Rowan
+1956	m	1.81	Reid
+1987	f	1.69	Alexis Dakota
+1963	d	1.92	Logan Shane
+1979	f	1.66	Casey Quinn
+1993	f	1.59	Sierra
+1961	f	1.49	Morgan Taylor Aubrey
+1987	m	1.74	Micah
+1958	f	1.60	Riley
+1990	d	1.71	Aubrey
+1998	m	1.86	Micah Hunter Lane
+1970	m	1.76	Theo Luca
+1992	f	1.55	Quinn
+1992	m	1.67	Shane Spencer Hunter
+1992	f	1.51	Morgan Hayden Harper
+1977	f	1.61	Alexis
+1979	d	1.75	Jesse Ryan Spencer
+1980	m	1.79	Luca Reid

@@ -1,0 +1,727 @@
+\doxysection{Binary\+Tree.\+h File Reference}
+\hypertarget{BinaryTree_8h}{}\label{BinaryTree_8h}\index{BinaryTree.h@{BinaryTree.h}}
+{\ttfamily \#include $<$stdbool.\+h$>$}\newline
+{\ttfamily \#include $<$limits.\+h$>$}\newline
+Include dependency graph for Binary\+Tree.\+h\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=214pt]{BinaryTree_8h__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=157pt]{BinaryTree_8h__dep__incl}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{structBTNode}{BTNode}}
+\item 
+struct \mbox{\hyperlink{structBinTree}{Bin\+Tree}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+typedef struct \mbox{\hyperlink{structBTNode}{BTNode}} \mbox{\hyperlink{BinaryTree_8h_a9a1cb8c3a06840df8d50c98cb51d0788}{BTNode}}
+\item 
+typedef struct \mbox{\hyperlink{structBinTree}{Bin\+Tree}} \mbox{\hyperlink{BinaryTree_8h_ad43b36fda41a28357fe2a583745e00c9}{Bin\+Tree}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{structBTNode}{BTNode}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{BinaryTree_8h_a66d0e4122b2b93615fdb613806a21748}{create\+BTNode}} (int value, \mbox{\hyperlink{structBTNode}{BTNode}} \texorpdfstring{$\ast$}{*}left, \mbox{\hyperlink{structBTNode}{BTNode}} \texorpdfstring{$\ast$}{*}right)
+\item 
+\mbox{\hyperlink{structBinTree}{Bin\+Tree}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{BinaryTree_8h_a5067748cfc3d6cbe1c0da46c4d46e3f7}{create\+Bin\+Tree}} (void)
+\item 
+\mbox{\hyperlink{structBTNode}{BTNode}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{BinaryTree_8h_a7c5bbbd444bb3b83d7a0a96f335b1860}{create\+Leaf}} (int value)
+\item 
+\mbox{\hyperlink{structBTNode}{BTNode}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{BinaryTree_8h_ab5c4cfef54749d280dc4b4cf5b2283df}{create\+New\+Leaf}} (int value)
+\item 
+int \mbox{\hyperlink{BinaryTree_8h_a6375b4f2decb7d023be2267a0ba731ce}{sum\+Of\+BTNodes}} (\mbox{\hyperlink{structBTNode}{BTNode}} \texorpdfstring{$\ast$}{*}tree)
+\item 
+int \mbox{\hyperlink{BinaryTree_8h_a9e38e36d64149d03b2c8940c3869528f}{count\+Tree\+BTNodes}} (\mbox{\hyperlink{structBTNode}{BTNode}} \texorpdfstring{$\ast$}{*}tree)
+\item 
+int \mbox{\hyperlink{BinaryTree_8h_ab0df9342bd4150c6949216d7cf73c55b}{height\+Tree}} (\mbox{\hyperlink{structBTNode}{BTNode}} \texorpdfstring{$\ast$}{*}tree)
+\item 
+int \mbox{\hyperlink{BinaryTree_8h_af346316a7c772f06d63936daf0dfdb33}{height\+Of\+Tree}} (\mbox{\hyperlink{structBinTree}{Bin\+Tree}} \texorpdfstring{$\ast$}{*}tree)
+\item 
+void \mbox{\hyperlink{BinaryTree_8h_a6d8d0403d5f3bb7487e574cc053ce314}{print\+Tree}} (\mbox{\hyperlink{structBTNode}{BTNode}} \texorpdfstring{$\ast$}{*}tree)
+\item 
+void \mbox{\hyperlink{BinaryTree_8h_aa160e53e8969273ae182d81756767276}{Print\+Tree\+With\+Tree}} (\mbox{\hyperlink{structBinTree}{Bin\+Tree}} \texorpdfstring{$\ast$}{*}tree)
+\item 
+void \mbox{\hyperlink{BinaryTree_8h_acb03c676cef9bbdda26000a15baf0473}{print\+Inorder}} (\mbox{\hyperlink{structBTNode}{BTNode}} \texorpdfstring{$\ast$}{*}tree)
+\item 
+void \mbox{\hyperlink{BinaryTree_8h_a5cd3feefde2f014d24c3b21261c7ffc6}{print\+With\+Inorder}} (\mbox{\hyperlink{structBinTree}{Bin\+Tree}} \texorpdfstring{$\ast$}{*}tree)
+\item 
+bool \mbox{\hyperlink{BinaryTree_8h_aec4e2a6df010e3866b970de0256e2460}{contains\+Tree\+Value}} (\mbox{\hyperlink{structBTNode}{BTNode}} \texorpdfstring{$\ast$}{*}tree, int value)
+\item 
+bool \mbox{\hyperlink{BinaryTree_8h_ae2264727fcde777e13b97fe49596994f}{contains\+Value}} (\mbox{\hyperlink{structBinTree}{Bin\+Tree}} \texorpdfstring{$\ast$}{*}tree, int value)
+\item 
+bool \mbox{\hyperlink{BinaryTree_8h_ae4b1068a8c56256b3e760153de4804c7}{trees\+Equal}} (\mbox{\hyperlink{structBTNode}{BTNode}} \texorpdfstring{$\ast$}{*}t1, \mbox{\hyperlink{structBTNode}{BTNode}} \texorpdfstring{$\ast$}{*}t2)
+\item 
+bool \mbox{\hyperlink{BinaryTree_8h_a42084d9fbd900868ef926b976f2f1f50}{trees\+Are\+Equal}} (\mbox{\hyperlink{structBinTree}{Bin\+Tree}} \texorpdfstring{$\ast$}{*}t1, \mbox{\hyperlink{structBinTree}{Bin\+Tree}} \texorpdfstring{$\ast$}{*}t2)
+\item 
+bool \mbox{\hyperlink{BinaryTree_8h_ab8b3af6cb033fd720125df09e44fcd8b}{is\+Ordered}} (\mbox{\hyperlink{structBTNode}{BTNode}} \texorpdfstring{$\ast$}{*}tree, int min, int max)
+\item 
+bool \mbox{\hyperlink{BinaryTree_8h_a71e7914c55404f04ed2d79f1c82f1592}{is\+Tree\+Ordered}} (\mbox{\hyperlink{structBTNode}{BTNode}} \texorpdfstring{$\ast$}{*}tree)
+\item 
+bool \mbox{\hyperlink{BinaryTree_8h_a611d7ba4a72739ea71576e257dff3db7}{is\+Bin\+Tree\+Ordered}} (\mbox{\hyperlink{structBinTree}{Bin\+Tree}} \texorpdfstring{$\ast$}{*}tree)
+\item 
+\mbox{\hyperlink{structBTNode}{BTNode}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{BinaryTree_8h_a416cd1b9532b708691d31d4f8962e176}{copy\+Tree}} (\mbox{\hyperlink{structBTNode}{BTNode}} \texorpdfstring{$\ast$}{*}tree)
+\item 
+\mbox{\hyperlink{structBTNode}{BTNode}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{BinaryTree_8h_ace14ebce5ac53b53085dcbb7b7d8c095}{copy\+The\+Tree}} (\mbox{\hyperlink{structBinTree}{Bin\+Tree}} \texorpdfstring{$\ast$}{*}tree)
+\item 
+\mbox{\hyperlink{structBTNode}{BTNode}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{BinaryTree_8h_a0d688d5031295a7b85271c2db380f7d7}{insert\+Ordered}} (\mbox{\hyperlink{structBTNode}{BTNode}} \texorpdfstring{$\ast$}{*}tree, int value)
+\item 
+\mbox{\hyperlink{structBTNode}{BTNode}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{BinaryTree_8h_adc2a7908a25afdc5f088efe368e00fa9}{Insertion\+With\+Order}} (\mbox{\hyperlink{structBinTree}{Bin\+Tree}} \texorpdfstring{$\ast$}{*}tree, int value)
+\item 
+\mbox{\hyperlink{structBTNode}{BTNode}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{BinaryTree_8h_a37b9f113dfff1cabe064efd0fc5a1748}{Insert\+Ordered\+Iteration}} (\mbox{\hyperlink{structBTNode}{BTNode}} \texorpdfstring{$\ast$}{*}tree, int value)
+\item 
+\mbox{\hyperlink{structBTNode}{BTNode}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{BinaryTree_8h_af9148dde8b5f0ce309dd78d4e05298b5}{Insertion\+With\+Order\+Iter}} (\mbox{\hyperlink{structBinTree}{Bin\+Tree}} \texorpdfstring{$\ast$}{*}tree, int value)
+\item 
+\mbox{\hyperlink{structBTNode}{BTNode}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{BinaryTree_8h_aba8b17b5df10cb39789a503428dfd865}{efficient\+Searching\+Method}} (\mbox{\hyperlink{structBTNode}{BTNode}} \texorpdfstring{$\ast$}{*}tree, int value)
+\item 
+bool \mbox{\hyperlink{BinaryTree_8h_a16bc0e6fba7c8d13ed126b58df926603}{efficient\+Search}} (\mbox{\hyperlink{structBTNode}{BTNode}} \texorpdfstring{$\ast$}{*}tree, int value)
+\item 
+bool \mbox{\hyperlink{BinaryTree_8h_ad1b1db1290db8d553741dd6a0ce72d55}{efficient\+Tree\+Search}} (\mbox{\hyperlink{structBinTree}{Bin\+Tree}} \texorpdfstring{$\ast$}{*}tree, int value)
+\item 
+\mbox{\hyperlink{structBTNode}{BTNode}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{BinaryTree_8h_a5226618ad87134b127ebbe6ceefa4702}{efficient\+Search\+Iter\+Method}} (\mbox{\hyperlink{structBTNode}{BTNode}} \texorpdfstring{$\ast$}{*}tree, int value)
+\item 
+bool \mbox{\hyperlink{BinaryTree_8h_a58ddff3cfcc017ab695e3a9245824a88}{efficient\+Search\+Iter}} (\mbox{\hyperlink{structBTNode}{BTNode}} \texorpdfstring{$\ast$}{*}tree, int value)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Typedef Documentation}
+\Hypertarget{BinaryTree_8h_ad43b36fda41a28357fe2a583745e00c9}\label{BinaryTree_8h_ad43b36fda41a28357fe2a583745e00c9} 
+\index{BinaryTree.h@{BinaryTree.h}!BinTree@{BinTree}}
+\index{BinTree@{BinTree}!BinaryTree.h@{BinaryTree.h}}
+\doxysubsubsection{\texorpdfstring{BinTree}{BinTree}}
+{\footnotesize\ttfamily typedef struct \mbox{\hyperlink{structBinTree}{Bin\+Tree}} \mbox{\hyperlink{structBinTree}{Bin\+Tree}}}
+
+\Hypertarget{BinaryTree_8h_a9a1cb8c3a06840df8d50c98cb51d0788}\label{BinaryTree_8h_a9a1cb8c3a06840df8d50c98cb51d0788} 
+\index{BinaryTree.h@{BinaryTree.h}!BTNode@{BTNode}}
+\index{BTNode@{BTNode}!BinaryTree.h@{BinaryTree.h}}
+\doxysubsubsection{\texorpdfstring{BTNode}{BTNode}}
+{\footnotesize\ttfamily typedef struct \mbox{\hyperlink{structBTNode}{BTNode}} \mbox{\hyperlink{structBTNode}{BTNode}}}
+
+
+
+\doxysubsection{Function Documentation}
+\Hypertarget{BinaryTree_8h_aec4e2a6df010e3866b970de0256e2460}\label{BinaryTree_8h_aec4e2a6df010e3866b970de0256e2460} 
+\index{BinaryTree.h@{BinaryTree.h}!containsTreeValue@{containsTreeValue}}
+\index{containsTreeValue@{containsTreeValue}!BinaryTree.h@{BinaryTree.h}}
+\doxysubsubsection{\texorpdfstring{containsTreeValue()}{containsTreeValue()}}
+{\footnotesize\ttfamily bool contains\+Tree\+Value (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structBTNode}{BTNode}} \texorpdfstring{$\ast$}{*}}]{tree,  }\item[{int}]{value }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=185pt]{BinaryTree_8h_aec4e2a6df010e3866b970de0256e2460_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{BinaryTree_8h_aec4e2a6df010e3866b970de0256e2460_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{BinaryTree_8h_ae2264727fcde777e13b97fe49596994f}\label{BinaryTree_8h_ae2264727fcde777e13b97fe49596994f} 
+\index{BinaryTree.h@{BinaryTree.h}!containsValue@{containsValue}}
+\index{containsValue@{containsValue}!BinaryTree.h@{BinaryTree.h}}
+\doxysubsubsection{\texorpdfstring{containsValue()}{containsValue()}}
+{\footnotesize\ttfamily bool contains\+Value (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structBinTree}{Bin\+Tree}} \texorpdfstring{$\ast$}{*}}]{tree,  }\item[{int}]{value }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=306pt]{BinaryTree_8h_ae2264727fcde777e13b97fe49596994f_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=242pt]{BinaryTree_8h_ae2264727fcde777e13b97fe49596994f_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{BinaryTree_8h_ace14ebce5ac53b53085dcbb7b7d8c095}\label{BinaryTree_8h_ace14ebce5ac53b53085dcbb7b7d8c095} 
+\index{BinaryTree.h@{BinaryTree.h}!copyTheTree@{copyTheTree}}
+\index{copyTheTree@{copyTheTree}!BinaryTree.h@{BinaryTree.h}}
+\doxysubsubsection{\texorpdfstring{copyTheTree()}{copyTheTree()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{structBTNode}{BTNode}} \texorpdfstring{$\ast$}{*} copy\+The\+Tree (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structBinTree}{Bin\+Tree}} \texorpdfstring{$\ast$}{*}}]{tree }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{BinaryTree_8h_ace14ebce5ac53b53085dcbb7b7d8c095_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{BinaryTree_8h_a416cd1b9532b708691d31d4f8962e176}\label{BinaryTree_8h_a416cd1b9532b708691d31d4f8962e176} 
+\index{BinaryTree.h@{BinaryTree.h}!copyTree@{copyTree}}
+\index{copyTree@{copyTree}!BinaryTree.h@{BinaryTree.h}}
+\doxysubsubsection{\texorpdfstring{copyTree()}{copyTree()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{structBTNode}{BTNode}} \texorpdfstring{$\ast$}{*} copy\+Tree (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structBTNode}{BTNode}} \texorpdfstring{$\ast$}{*}}]{tree }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=262pt]{BinaryTree_8h_a416cd1b9532b708691d31d4f8962e176_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=254pt]{BinaryTree_8h_a416cd1b9532b708691d31d4f8962e176_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{BinaryTree_8h_a9e38e36d64149d03b2c8940c3869528f}\label{BinaryTree_8h_a9e38e36d64149d03b2c8940c3869528f} 
+\index{BinaryTree.h@{BinaryTree.h}!countTreeBTNodes@{countTreeBTNodes}}
+\index{countTreeBTNodes@{countTreeBTNodes}!BinaryTree.h@{BinaryTree.h}}
+\doxysubsubsection{\texorpdfstring{countTreeBTNodes()}{countTreeBTNodes()}}
+{\footnotesize\ttfamily int count\+Tree\+BTNodes (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structBTNode}{BTNode}} \texorpdfstring{$\ast$}{*}}]{tree }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=187pt]{BinaryTree_8h_a9e38e36d64149d03b2c8940c3869528f_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=187pt]{BinaryTree_8h_a9e38e36d64149d03b2c8940c3869528f_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{BinaryTree_8h_a5067748cfc3d6cbe1c0da46c4d46e3f7}\label{BinaryTree_8h_a5067748cfc3d6cbe1c0da46c4d46e3f7} 
+\index{BinaryTree.h@{BinaryTree.h}!createBinTree@{createBinTree}}
+\index{createBinTree@{createBinTree}!BinaryTree.h@{BinaryTree.h}}
+\doxysubsubsection{\texorpdfstring{createBinTree()}{createBinTree()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{structBinTree}{Bin\+Tree}} \texorpdfstring{$\ast$}{*} create\+Bin\+Tree (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=240pt]{BinaryTree_8h_a5067748cfc3d6cbe1c0da46c4d46e3f7_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{BinaryTree_8h_a66d0e4122b2b93615fdb613806a21748}\label{BinaryTree_8h_a66d0e4122b2b93615fdb613806a21748} 
+\index{BinaryTree.h@{BinaryTree.h}!createBTNode@{createBTNode}}
+\index{createBTNode@{createBTNode}!BinaryTree.h@{BinaryTree.h}}
+\doxysubsubsection{\texorpdfstring{createBTNode()}{createBTNode()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{structBTNode}{BTNode}} \texorpdfstring{$\ast$}{*} create\+BTNode (\begin{DoxyParamCaption}\item[{int}]{value,  }\item[{\mbox{\hyperlink{structBTNode}{BTNode}} \texorpdfstring{$\ast$}{*}}]{left,  }\item[{\mbox{\hyperlink{structBTNode}{BTNode}} \texorpdfstring{$\ast$}{*}}]{right }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{BinaryTree_8h_a66d0e4122b2b93615fdb613806a21748_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{BinaryTree_8h_a7c5bbbd444bb3b83d7a0a96f335b1860}\label{BinaryTree_8h_a7c5bbbd444bb3b83d7a0a96f335b1860} 
+\index{BinaryTree.h@{BinaryTree.h}!createLeaf@{createLeaf}}
+\index{createLeaf@{createLeaf}!BinaryTree.h@{BinaryTree.h}}
+\doxysubsubsection{\texorpdfstring{createLeaf()}{createLeaf()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{structBTNode}{BTNode}} \texorpdfstring{$\ast$}{*} create\+Leaf (\begin{DoxyParamCaption}\item[{int}]{value }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=270pt]{BinaryTree_8h_a7c5bbbd444bb3b83d7a0a96f335b1860_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{BinaryTree_8h_a7c5bbbd444bb3b83d7a0a96f335b1860_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{BinaryTree_8h_ab5c4cfef54749d280dc4b4cf5b2283df}\label{BinaryTree_8h_ab5c4cfef54749d280dc4b4cf5b2283df} 
+\index{BinaryTree.h@{BinaryTree.h}!createNewLeaf@{createNewLeaf}}
+\index{createNewLeaf@{createNewLeaf}!BinaryTree.h@{BinaryTree.h}}
+\doxysubsubsection{\texorpdfstring{createNewLeaf()}{createNewLeaf()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{structBTNode}{BTNode}} \texorpdfstring{$\ast$}{*} create\+New\+Leaf (\begin{DoxyParamCaption}\item[{int}]{value }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{BinaryTree_8h_ab5c4cfef54749d280dc4b4cf5b2283df_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{BinaryTree_8h_a16bc0e6fba7c8d13ed126b58df926603}\label{BinaryTree_8h_a16bc0e6fba7c8d13ed126b58df926603} 
+\index{BinaryTree.h@{BinaryTree.h}!efficientSearch@{efficientSearch}}
+\index{efficientSearch@{efficientSearch}!BinaryTree.h@{BinaryTree.h}}
+\doxysubsubsection{\texorpdfstring{efficientSearch()}{efficientSearch()}}
+{\footnotesize\ttfamily bool efficient\+Search (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structBTNode}{BTNode}} \texorpdfstring{$\ast$}{*}}]{tree,  }\item[{int}]{value }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{BinaryTree_8h_a16bc0e6fba7c8d13ed126b58df926603_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=315pt]{BinaryTree_8h_a16bc0e6fba7c8d13ed126b58df926603_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{BinaryTree_8h_aba8b17b5df10cb39789a503428dfd865}\label{BinaryTree_8h_aba8b17b5df10cb39789a503428dfd865} 
+\index{BinaryTree.h@{BinaryTree.h}!efficientSearchingMethod@{efficientSearchingMethod}}
+\index{efficientSearchingMethod@{efficientSearchingMethod}!BinaryTree.h@{BinaryTree.h}}
+\doxysubsubsection{\texorpdfstring{efficientSearchingMethod()}{efficientSearchingMethod()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{structBTNode}{BTNode}} \texorpdfstring{$\ast$}{*} efficient\+Searching\+Method (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structBTNode}{BTNode}} \texorpdfstring{$\ast$}{*}}]{tree,  }\item[{int}]{value }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{BinaryTree_8h_aba8b17b5df10cb39789a503428dfd865_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{BinaryTree_8h_aba8b17b5df10cb39789a503428dfd865_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{BinaryTree_8h_a58ddff3cfcc017ab695e3a9245824a88}\label{BinaryTree_8h_a58ddff3cfcc017ab695e3a9245824a88} 
+\index{BinaryTree.h@{BinaryTree.h}!efficientSearchIter@{efficientSearchIter}}
+\index{efficientSearchIter@{efficientSearchIter}!BinaryTree.h@{BinaryTree.h}}
+\doxysubsubsection{\texorpdfstring{efficientSearchIter()}{efficientSearchIter()}}
+{\footnotesize\ttfamily bool efficient\+Search\+Iter (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structBTNode}{BTNode}} \texorpdfstring{$\ast$}{*}}]{tree,  }\item[{int}]{value }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{BinaryTree_8h_a58ddff3cfcc017ab695e3a9245824a88_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=337pt]{BinaryTree_8h_a58ddff3cfcc017ab695e3a9245824a88_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{BinaryTree_8h_a5226618ad87134b127ebbe6ceefa4702}\label{BinaryTree_8h_a5226618ad87134b127ebbe6ceefa4702} 
+\index{BinaryTree.h@{BinaryTree.h}!efficientSearchIterMethod@{efficientSearchIterMethod}}
+\index{efficientSearchIterMethod@{efficientSearchIterMethod}!BinaryTree.h@{BinaryTree.h}}
+\doxysubsubsection{\texorpdfstring{efficientSearchIterMethod()}{efficientSearchIterMethod()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{structBTNode}{BTNode}} \texorpdfstring{$\ast$}{*} efficient\+Search\+Iter\+Method (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structBTNode}{BTNode}} \texorpdfstring{$\ast$}{*}}]{tree,  }\item[{int}]{value }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{BinaryTree_8h_a5226618ad87134b127ebbe6ceefa4702_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{BinaryTree_8h_a5226618ad87134b127ebbe6ceefa4702_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{BinaryTree_8h_ad1b1db1290db8d553741dd6a0ce72d55}\label{BinaryTree_8h_ad1b1db1290db8d553741dd6a0ce72d55} 
+\index{BinaryTree.h@{BinaryTree.h}!efficientTreeSearch@{efficientTreeSearch}}
+\index{efficientTreeSearch@{efficientTreeSearch}!BinaryTree.h@{BinaryTree.h}}
+\doxysubsubsection{\texorpdfstring{efficientTreeSearch()}{efficientTreeSearch()}}
+{\footnotesize\ttfamily bool efficient\+Tree\+Search (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structBinTree}{Bin\+Tree}} \texorpdfstring{$\ast$}{*}}]{tree,  }\item[{int}]{value }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{BinaryTree_8h_ad1b1db1290db8d553741dd6a0ce72d55_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{BinaryTree_8h_af346316a7c772f06d63936daf0dfdb33}\label{BinaryTree_8h_af346316a7c772f06d63936daf0dfdb33} 
+\index{BinaryTree.h@{BinaryTree.h}!heightOfTree@{heightOfTree}}
+\index{heightOfTree@{heightOfTree}!BinaryTree.h@{BinaryTree.h}}
+\doxysubsubsection{\texorpdfstring{heightOfTree()}{heightOfTree()}}
+{\footnotesize\ttfamily int height\+Of\+Tree (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structBinTree}{Bin\+Tree}} \texorpdfstring{$\ast$}{*}}]{tree }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=263pt]{BinaryTree_8h_af346316a7c772f06d63936daf0dfdb33_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=236pt]{BinaryTree_8h_af346316a7c772f06d63936daf0dfdb33_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{BinaryTree_8h_ab0df9342bd4150c6949216d7cf73c55b}\label{BinaryTree_8h_ab0df9342bd4150c6949216d7cf73c55b} 
+\index{BinaryTree.h@{BinaryTree.h}!heightTree@{heightTree}}
+\index{heightTree@{heightTree}!BinaryTree.h@{BinaryTree.h}}
+\doxysubsubsection{\texorpdfstring{heightTree()}{heightTree()}}
+{\footnotesize\ttfamily int height\+Tree (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structBTNode}{BTNode}} \texorpdfstring{$\ast$}{*}}]{tree }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=148pt]{BinaryTree_8h_ab0df9342bd4150c6949216d7cf73c55b_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=340pt]{BinaryTree_8h_ab0df9342bd4150c6949216d7cf73c55b_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{BinaryTree_8h_adc2a7908a25afdc5f088efe368e00fa9}\label{BinaryTree_8h_adc2a7908a25afdc5f088efe368e00fa9} 
+\index{BinaryTree.h@{BinaryTree.h}!InsertionWithOrder@{InsertionWithOrder}}
+\index{InsertionWithOrder@{InsertionWithOrder}!BinaryTree.h@{BinaryTree.h}}
+\doxysubsubsection{\texorpdfstring{InsertionWithOrder()}{InsertionWithOrder()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{structBTNode}{BTNode}} \texorpdfstring{$\ast$}{*} Insertion\+With\+Order (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structBinTree}{Bin\+Tree}} \texorpdfstring{$\ast$}{*}}]{tree,  }\item[{int}]{value }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{BinaryTree_8h_adc2a7908a25afdc5f088efe368e00fa9_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=266pt]{BinaryTree_8h_adc2a7908a25afdc5f088efe368e00fa9_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{BinaryTree_8h_af9148dde8b5f0ce309dd78d4e05298b5}\label{BinaryTree_8h_af9148dde8b5f0ce309dd78d4e05298b5} 
+\index{BinaryTree.h@{BinaryTree.h}!InsertionWithOrderIter@{InsertionWithOrderIter}}
+\index{InsertionWithOrderIter@{InsertionWithOrderIter}!BinaryTree.h@{BinaryTree.h}}
+\doxysubsubsection{\texorpdfstring{InsertionWithOrderIter()}{InsertionWithOrderIter()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{structBTNode}{BTNode}} \texorpdfstring{$\ast$}{*} Insertion\+With\+Order\+Iter (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structBinTree}{Bin\+Tree}} \texorpdfstring{$\ast$}{*}}]{tree,  }\item[{int}]{value }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{BinaryTree_8h_af9148dde8b5f0ce309dd78d4e05298b5_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=282pt]{BinaryTree_8h_af9148dde8b5f0ce309dd78d4e05298b5_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{BinaryTree_8h_a0d688d5031295a7b85271c2db380f7d7}\label{BinaryTree_8h_a0d688d5031295a7b85271c2db380f7d7} 
+\index{BinaryTree.h@{BinaryTree.h}!insertOrdered@{insertOrdered}}
+\index{insertOrdered@{insertOrdered}!BinaryTree.h@{BinaryTree.h}}
+\doxysubsubsection{\texorpdfstring{insertOrdered()}{insertOrdered()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{structBTNode}{BTNode}} \texorpdfstring{$\ast$}{*} insert\+Ordered (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structBTNode}{BTNode}} \texorpdfstring{$\ast$}{*}}]{tree,  }\item[{int}]{value }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{BinaryTree_8h_a0d688d5031295a7b85271c2db380f7d7_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{BinaryTree_8h_a0d688d5031295a7b85271c2db380f7d7_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{BinaryTree_8h_a37b9f113dfff1cabe064efd0fc5a1748}\label{BinaryTree_8h_a37b9f113dfff1cabe064efd0fc5a1748} 
+\index{BinaryTree.h@{BinaryTree.h}!InsertOrderedIteration@{InsertOrderedIteration}}
+\index{InsertOrderedIteration@{InsertOrderedIteration}!BinaryTree.h@{BinaryTree.h}}
+\doxysubsubsection{\texorpdfstring{InsertOrderedIteration()}{InsertOrderedIteration()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{structBTNode}{BTNode}} \texorpdfstring{$\ast$}{*} Insert\+Ordered\+Iteration (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structBTNode}{BTNode}} \texorpdfstring{$\ast$}{*}}]{tree,  }\item[{int}]{value }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{BinaryTree_8h_a37b9f113dfff1cabe064efd0fc5a1748_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{BinaryTree_8h_a37b9f113dfff1cabe064efd0fc5a1748_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{BinaryTree_8h_a611d7ba4a72739ea71576e257dff3db7}\label{BinaryTree_8h_a611d7ba4a72739ea71576e257dff3db7} 
+\index{BinaryTree.h@{BinaryTree.h}!isBinTreeOrdered@{isBinTreeOrdered}}
+\index{isBinTreeOrdered@{isBinTreeOrdered}!BinaryTree.h@{BinaryTree.h}}
+\doxysubsubsection{\texorpdfstring{isBinTreeOrdered()}{isBinTreeOrdered()}}
+{\footnotesize\ttfamily bool is\+Bin\+Tree\+Ordered (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structBinTree}{Bin\+Tree}} \texorpdfstring{$\ast$}{*}}]{tree }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{BinaryTree_8h_a611d7ba4a72739ea71576e257dff3db7_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=257pt]{BinaryTree_8h_a611d7ba4a72739ea71576e257dff3db7_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{BinaryTree_8h_ab8b3af6cb033fd720125df09e44fcd8b}\label{BinaryTree_8h_ab8b3af6cb033fd720125df09e44fcd8b} 
+\index{BinaryTree.h@{BinaryTree.h}!isOrdered@{isOrdered}}
+\index{isOrdered@{isOrdered}!BinaryTree.h@{BinaryTree.h}}
+\doxysubsubsection{\texorpdfstring{isOrdered()}{isOrdered()}}
+{\footnotesize\ttfamily bool is\+Ordered (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structBTNode}{BTNode}} \texorpdfstring{$\ast$}{*}}]{tree,  }\item[{int}]{min,  }\item[{int}]{max }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=144pt]{BinaryTree_8h_ab8b3af6cb033fd720125df09e44fcd8b_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{BinaryTree_8h_ab8b3af6cb033fd720125df09e44fcd8b_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{BinaryTree_8h_a71e7914c55404f04ed2d79f1c82f1592}\label{BinaryTree_8h_a71e7914c55404f04ed2d79f1c82f1592} 
+\index{BinaryTree.h@{BinaryTree.h}!isTreeOrdered@{isTreeOrdered}}
+\index{isTreeOrdered@{isTreeOrdered}!BinaryTree.h@{BinaryTree.h}}
+\doxysubsubsection{\texorpdfstring{isTreeOrdered()}{isTreeOrdered()}}
+{\footnotesize\ttfamily bool is\+Tree\+Ordered (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structBTNode}{BTNode}} \texorpdfstring{$\ast$}{*}}]{tree }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=264pt]{BinaryTree_8h_a71e7914c55404f04ed2d79f1c82f1592_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{BinaryTree_8h_a71e7914c55404f04ed2d79f1c82f1592_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{BinaryTree_8h_acb03c676cef9bbdda26000a15baf0473}\label{BinaryTree_8h_acb03c676cef9bbdda26000a15baf0473} 
+\index{BinaryTree.h@{BinaryTree.h}!printInorder@{printInorder}}
+\index{printInorder@{printInorder}!BinaryTree.h@{BinaryTree.h}}
+\doxysubsubsection{\texorpdfstring{printInorder()}{printInorder()}}
+{\footnotesize\ttfamily void print\+Inorder (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structBTNode}{BTNode}} \texorpdfstring{$\ast$}{*}}]{tree }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=154pt]{BinaryTree_8h_acb03c676cef9bbdda26000a15baf0473_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{BinaryTree_8h_acb03c676cef9bbdda26000a15baf0473_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{BinaryTree_8h_a6d8d0403d5f3bb7487e574cc053ce314}\label{BinaryTree_8h_a6d8d0403d5f3bb7487e574cc053ce314} 
+\index{BinaryTree.h@{BinaryTree.h}!printTree@{printTree}}
+\index{printTree@{printTree}!BinaryTree.h@{BinaryTree.h}}
+\doxysubsubsection{\texorpdfstring{printTree()}{printTree()}}
+{\footnotesize\ttfamily void print\+Tree (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structBTNode}{BTNode}} \texorpdfstring{$\ast$}{*}}]{tree }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=139pt]{BinaryTree_8h_a6d8d0403d5f3bb7487e574cc053ce314_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{BinaryTree_8h_a6d8d0403d5f3bb7487e574cc053ce314_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{BinaryTree_8h_aa160e53e8969273ae182d81756767276}\label{BinaryTree_8h_aa160e53e8969273ae182d81756767276} 
+\index{BinaryTree.h@{BinaryTree.h}!PrintTreeWithTree@{PrintTreeWithTree}}
+\index{PrintTreeWithTree@{PrintTreeWithTree}!BinaryTree.h@{BinaryTree.h}}
+\doxysubsubsection{\texorpdfstring{PrintTreeWithTree()}{PrintTreeWithTree()}}
+{\footnotesize\ttfamily void Print\+Tree\+With\+Tree (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structBinTree}{Bin\+Tree}} \texorpdfstring{$\ast$}{*}}]{tree }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=277pt]{BinaryTree_8h_aa160e53e8969273ae182d81756767276_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=259pt]{BinaryTree_8h_aa160e53e8969273ae182d81756767276_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{BinaryTree_8h_a5cd3feefde2f014d24c3b21261c7ffc6}\label{BinaryTree_8h_a5cd3feefde2f014d24c3b21261c7ffc6} 
+\index{BinaryTree.h@{BinaryTree.h}!printWithInorder@{printWithInorder}}
+\index{printWithInorder@{printWithInorder}!BinaryTree.h@{BinaryTree.h}}
+\doxysubsubsection{\texorpdfstring{printWithInorder()}{printWithInorder()}}
+{\footnotesize\ttfamily void print\+With\+Inorder (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structBinTree}{Bin\+Tree}} \texorpdfstring{$\ast$}{*}}]{tree }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=286pt]{BinaryTree_8h_a5cd3feefde2f014d24c3b21261c7ffc6_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=253pt]{BinaryTree_8h_a5cd3feefde2f014d24c3b21261c7ffc6_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{BinaryTree_8h_a6375b4f2decb7d023be2267a0ba731ce}\label{BinaryTree_8h_a6375b4f2decb7d023be2267a0ba731ce} 
+\index{BinaryTree.h@{BinaryTree.h}!sumOfBTNodes@{sumOfBTNodes}}
+\index{sumOfBTNodes@{sumOfBTNodes}!BinaryTree.h@{BinaryTree.h}}
+\doxysubsubsection{\texorpdfstring{sumOfBTNodes()}{sumOfBTNodes()}}
+{\footnotesize\ttfamily int sum\+Of\+BTNodes (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structBTNode}{BTNode}} \texorpdfstring{$\ast$}{*}}]{tree }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=172pt]{BinaryTree_8h_a6375b4f2decb7d023be2267a0ba731ce_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=172pt]{BinaryTree_8h_a6375b4f2decb7d023be2267a0ba731ce_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{BinaryTree_8h_a42084d9fbd900868ef926b976f2f1f50}\label{BinaryTree_8h_a42084d9fbd900868ef926b976f2f1f50} 
+\index{BinaryTree.h@{BinaryTree.h}!treesAreEqual@{treesAreEqual}}
+\index{treesAreEqual@{treesAreEqual}!BinaryTree.h@{BinaryTree.h}}
+\doxysubsubsection{\texorpdfstring{treesAreEqual()}{treesAreEqual()}}
+{\footnotesize\ttfamily bool trees\+Are\+Equal (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structBinTree}{Bin\+Tree}} \texorpdfstring{$\ast$}{*}}]{t1,  }\item[{\mbox{\hyperlink{structBinTree}{Bin\+Tree}} \texorpdfstring{$\ast$}{*}}]{t2 }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=269pt]{BinaryTree_8h_a42084d9fbd900868ef926b976f2f1f50_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{BinaryTree_8h_ae4b1068a8c56256b3e760153de4804c7}\label{BinaryTree_8h_ae4b1068a8c56256b3e760153de4804c7} 
+\index{BinaryTree.h@{BinaryTree.h}!treesEqual@{treesEqual}}
+\index{treesEqual@{treesEqual}!BinaryTree.h@{BinaryTree.h}}
+\doxysubsubsection{\texorpdfstring{treesEqual()}{treesEqual()}}
+{\footnotesize\ttfamily bool trees\+Equal (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structBTNode}{BTNode}} \texorpdfstring{$\ast$}{*}}]{t1,  }\item[{\mbox{\hyperlink{structBTNode}{BTNode}} \texorpdfstring{$\ast$}{*}}]{t2 }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=148pt]{BinaryTree_8h_ae4b1068a8c56256b3e760153de4804c7_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=269pt]{BinaryTree_8h_ae4b1068a8c56256b3e760153de4804c7_icgraph}
+\end{center}
+\end{figure}

@@ -1,0 +1,477 @@
+\doxysection{list.\+h File Reference}
+\hypertarget{list_8h}{}\label{list_8h}\index{list.h@{list.h}}
+{\ttfamily \#include $<$stdbool.\+h$>$}\newline
+Include dependency graph for list.\+h\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=142pt]{list_8h__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=300pt]{list_8h__dep__incl}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{structNode}{Node}}
+\item 
+struct \mbox{\hyperlink{structList}{List}}
+\item 
+struct \mbox{\hyperlink{structGenericNode}{Generic\+Node}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+typedef struct \mbox{\hyperlink{structNode}{Node}} \mbox{\hyperlink{list_8h_a3b09f37e675bcd48a01bf22155996872}{Node}}
+\item 
+typedef struct \mbox{\hyperlink{structList}{List}} \mbox{\hyperlink{list_8h_a61366e7da8638d66a464a4a6f4799199}{List}}
+\item 
+typedef struct \mbox{\hyperlink{structGenericNode}{Generic\+Node}} \mbox{\hyperlink{list_8h_af79ca9cd165285b513aacbcdc74a11e2}{Generic\+Node}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{structList}{List}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{list_8h_adf0d926330b762066c03d55073b8eef1}{create\+List}} (void)
+\item 
+\mbox{\hyperlink{structNode}{Node}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{list_8h_acb111c7384a58f5adab652c0fbbb8e8d}{create\+Node}} (int value, \mbox{\hyperlink{structNode}{Node}} \texorpdfstring{$\ast$}{*}next)
+\begin{DoxyCompactList}\small\item\em Creates a new node with a given value. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{structNode}{Node}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{list_8h_a7de835c159238d9dd43ade75eb875eab}{prepend\+List}} (int value, \mbox{\hyperlink{structNode}{Node}} \texorpdfstring{$\ast$}{*}list)
+\begin{DoxyCompactList}\small\item\em Prepends a value to the beginning of a list. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{structNode}{Node}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{list_8h_a0b41314a1c6ac940b659d8cf09733f74}{append\+List}} (\mbox{\hyperlink{structNode}{Node}} \texorpdfstring{$\ast$}{*}list, int value)
+\item 
+\mbox{\hyperlink{structNode}{Node}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{list_8h_aa17416fcc980e018b751d48b9209a773}{append\+List\+Iter}} (\mbox{\hyperlink{structNode}{Node}} \texorpdfstring{$\ast$}{*}list, int value)
+\item 
+\mbox{\hyperlink{structNode}{Node}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{list_8h_a9d1c654431d1b4265d8feaf2a6220fc5}{append\+List\+Recurs}} (\mbox{\hyperlink{structNode}{Node}} \texorpdfstring{$\ast$}{*}list, int value)
+\item 
+void \mbox{\hyperlink{list_8h_abb1a3b7ecc831e97a69baf2e2206d5d9}{efficient\+Appending}} (\mbox{\hyperlink{structList}{List}} \texorpdfstring{$\ast$}{*}list, int value)
+\item 
+int \mbox{\hyperlink{list_8h_ae3f38a002009f269fa9cbc7b3709ec67}{list\+Length\+Recursively}} (\mbox{\hyperlink{structNode}{Node}} \texorpdfstring{$\ast$}{*}list)
+\item 
+int \mbox{\hyperlink{list_8h_a68e89e1474e0f2349f72df6b29f53fbb}{list\+Length\+Iterative}} (\mbox{\hyperlink{structNode}{Node}} \texorpdfstring{$\ast$}{*}list)
+\item 
+int \mbox{\hyperlink{list_8h_ae3602675afd439dbfd2f70b912c23420}{list\+Length\+It}} (\mbox{\hyperlink{structList}{List}} \texorpdfstring{$\ast$}{*}list)
+\item 
+int \mbox{\hyperlink{list_8h_a402dfa43287a9bb69c8864a02ae60fbd}{list\+Length\+Rec}} (\mbox{\hyperlink{structList}{List}} \texorpdfstring{$\ast$}{*}list)
+\item 
+int \mbox{\hyperlink{list_8h_a3cb1f7799644db8cb758f3716dd42797}{list\+Sum}} (\mbox{\hyperlink{structNode}{Node}} \texorpdfstring{$\ast$}{*}list)
+\item 
+int \mbox{\hyperlink{list_8h_aa2f1cca27224a279542ac4da735262d8}{list\+Add\+Values}} (\mbox{\hyperlink{structList}{List}} \texorpdfstring{$\ast$}{*}list)
+\item 
+void \mbox{\hyperlink{list_8h_a621d2d4b63e0777d8cd273f641589235}{print\+Elements}} (\mbox{\hyperlink{structNode}{Node}} \texorpdfstring{$\ast$}{*}list)
+\begin{DoxyCompactList}\small\item\em Prints the linked list in a "{}1 -\/$>$ 2 -\/$>$ 3"{} style. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{list_8h_a793fc22f6b0df1cef102656de7e15c9d}{print\+List}} (\mbox{\hyperlink{structNode}{Node}} \texorpdfstring{$\ast$}{*}list)
+\item 
+void \mbox{\hyperlink{list_8h_a44af6806ae769b7f6e7f901bb75978c6}{print\+Lis}} (\mbox{\hyperlink{structList}{List}} \texorpdfstring{$\ast$}{*}list)
+\item 
+void \mbox{\hyperlink{list_8h_a53d4bc9a3bdb8342b81cac25d7336147}{check\+Sorted}} (\mbox{\hyperlink{structNode}{Node}} \texorpdfstring{$\ast$}{*}list)
+\item 
+\mbox{\hyperlink{structNode}{Node}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{list_8h_a44f362cd139a5591a5d2c6bd9d9ad1ee}{insert\+Ordered}} (\mbox{\hyperlink{structNode}{Node}} \texorpdfstring{$\ast$}{*}list, int value)
+\item 
+void \mbox{\hyperlink{list_8h_a7b8a9c2d023db05204fb3074799c7d69}{inserted\+Order\+List}} (\mbox{\hyperlink{structList}{List}} \texorpdfstring{$\ast$}{*}list, int value)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Typedef Documentation}
+\Hypertarget{list_8h_af79ca9cd165285b513aacbcdc74a11e2}\label{list_8h_af79ca9cd165285b513aacbcdc74a11e2} 
+\index{list.h@{list.h}!GenericNode@{GenericNode}}
+\index{GenericNode@{GenericNode}!list.h@{list.h}}
+\doxysubsubsection{\texorpdfstring{GenericNode}{GenericNode}}
+{\footnotesize\ttfamily typedef struct \mbox{\hyperlink{structGenericNode}{Generic\+Node}} \mbox{\hyperlink{structGenericNode}{Generic\+Node}}}
+
+\Hypertarget{list_8h_a61366e7da8638d66a464a4a6f4799199}\label{list_8h_a61366e7da8638d66a464a4a6f4799199} 
+\index{list.h@{list.h}!List@{List}}
+\index{List@{List}!list.h@{list.h}}
+\doxysubsubsection{\texorpdfstring{List}{List}}
+{\footnotesize\ttfamily typedef struct \mbox{\hyperlink{structList}{List}} \mbox{\hyperlink{structList}{List}}}
+
+\Hypertarget{list_8h_a3b09f37e675bcd48a01bf22155996872}\label{list_8h_a3b09f37e675bcd48a01bf22155996872} 
+\index{list.h@{list.h}!Node@{Node}}
+\index{Node@{Node}!list.h@{list.h}}
+\doxysubsubsection{\texorpdfstring{Node}{Node}}
+{\footnotesize\ttfamily typedef struct \mbox{\hyperlink{structNode}{Node}} \mbox{\hyperlink{structNode}{Node}}}
+
+
+
+\doxysubsection{Function Documentation}
+\Hypertarget{list_8h_a0b41314a1c6ac940b659d8cf09733f74}\label{list_8h_a0b41314a1c6ac940b659d8cf09733f74} 
+\index{list.h@{list.h}!appendList@{appendList}}
+\index{appendList@{appendList}!list.h@{list.h}}
+\doxysubsubsection{\texorpdfstring{appendList()}{appendList()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{structNode}{Node}} \texorpdfstring{$\ast$}{*} append\+List (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structNode}{Node}} \texorpdfstring{$\ast$}{*}}]{list,  }\item[{int}]{value }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=259pt]{list_8h_a0b41314a1c6ac940b659d8cf09733f74_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{list_8h_aa17416fcc980e018b751d48b9209a773}\label{list_8h_aa17416fcc980e018b751d48b9209a773} 
+\index{list.h@{list.h}!appendListIter@{appendListIter}}
+\index{appendListIter@{appendListIter}!list.h@{list.h}}
+\doxysubsubsection{\texorpdfstring{appendListIter()}{appendListIter()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{structNode}{Node}} \texorpdfstring{$\ast$}{*} append\+List\+Iter (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structNode}{Node}} \texorpdfstring{$\ast$}{*}}]{list,  }\item[{int}]{value }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=275pt]{list_8h_aa17416fcc980e018b751d48b9209a773_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{list_8h_a9d1c654431d1b4265d8feaf2a6220fc5}\label{list_8h_a9d1c654431d1b4265d8feaf2a6220fc5} 
+\index{list.h@{list.h}!appendListRecurs@{appendListRecurs}}
+\index{appendListRecurs@{appendListRecurs}!list.h@{list.h}}
+\doxysubsubsection{\texorpdfstring{appendListRecurs()}{appendListRecurs()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{structNode}{Node}} \texorpdfstring{$\ast$}{*} append\+List\+Recurs (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structNode}{Node}} \texorpdfstring{$\ast$}{*}}]{list,  }\item[{int}]{value }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=292pt]{list_8h_a9d1c654431d1b4265d8feaf2a6220fc5_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=183pt]{list_8h_a9d1c654431d1b4265d8feaf2a6220fc5_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{list_8h_a53d4bc9a3bdb8342b81cac25d7336147}\label{list_8h_a53d4bc9a3bdb8342b81cac25d7336147} 
+\index{list.h@{list.h}!checkSorted@{checkSorted}}
+\index{checkSorted@{checkSorted}!list.h@{list.h}}
+\doxysubsubsection{\texorpdfstring{checkSorted()}{checkSorted()}}
+{\footnotesize\ttfamily void check\+Sorted (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structNode}{Node}} \texorpdfstring{$\ast$}{*}}]{list }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{list_8h_a53d4bc9a3bdb8342b81cac25d7336147_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{list_8h_adf0d926330b762066c03d55073b8eef1}\label{list_8h_adf0d926330b762066c03d55073b8eef1} 
+\index{list.h@{list.h}!createList@{createList}}
+\index{createList@{createList}!list.h@{list.h}}
+\doxysubsubsection{\texorpdfstring{createList()}{createList()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{structList}{List}} \texorpdfstring{$\ast$}{*} create\+List (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=222pt]{list_8h_adf0d926330b762066c03d55073b8eef1_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{list_8h_acb111c7384a58f5adab652c0fbbb8e8d}\label{list_8h_acb111c7384a58f5adab652c0fbbb8e8d} 
+\index{list.h@{list.h}!createNode@{createNode}}
+\index{createNode@{createNode}!list.h@{list.h}}
+\doxysubsubsection{\texorpdfstring{createNode()}{createNode()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{structNode}{Node}} \texorpdfstring{$\ast$}{*} create\+Node (\begin{DoxyParamCaption}\item[{int}]{value,  }\item[{\mbox{\hyperlink{structNode}{Node}} \texorpdfstring{$\ast$}{*}}]{next }\end{DoxyParamCaption})}
+
+
+
+Creates a new node with a given value. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & Integer value to store. \\
+\hline
+{\em next} & Pointer to next node (can be NULL). \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Pointer to the newly created \doxylink{structNode}{Node}. 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{list_8h_acb111c7384a58f5adab652c0fbbb8e8d_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{list_8h_abb1a3b7ecc831e97a69baf2e2206d5d9}\label{list_8h_abb1a3b7ecc831e97a69baf2e2206d5d9} 
+\index{list.h@{list.h}!efficientAppending@{efficientAppending}}
+\index{efficientAppending@{efficientAppending}!list.h@{list.h}}
+\doxysubsubsection{\texorpdfstring{efficientAppending()}{efficientAppending()}}
+{\footnotesize\ttfamily void efficient\+Appending (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structList}{List}} \texorpdfstring{$\ast$}{*}}]{list,  }\item[{int}]{value }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=297pt]{list_8h_abb1a3b7ecc831e97a69baf2e2206d5d9_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=265pt]{list_8h_abb1a3b7ecc831e97a69baf2e2206d5d9_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{list_8h_a7b8a9c2d023db05204fb3074799c7d69}\label{list_8h_a7b8a9c2d023db05204fb3074799c7d69} 
+\index{list.h@{list.h}!insertedOrderList@{insertedOrderList}}
+\index{insertedOrderList@{insertedOrderList}!list.h@{list.h}}
+\doxysubsubsection{\texorpdfstring{insertedOrderList()}{insertedOrderList()}}
+{\footnotesize\ttfamily void inserted\+Order\+List (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structList}{List}} \texorpdfstring{$\ast$}{*}}]{list,  }\item[{int}]{value }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=294pt]{list_8h_a7b8a9c2d023db05204fb3074799c7d69_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=258pt]{list_8h_a7b8a9c2d023db05204fb3074799c7d69_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{list_8h_a44f362cd139a5591a5d2c6bd9d9ad1ee}\label{list_8h_a44f362cd139a5591a5d2c6bd9d9ad1ee} 
+\index{list.h@{list.h}!insertOrdered@{insertOrdered}}
+\index{insertOrdered@{insertOrdered}!list.h@{list.h}}
+\doxysubsubsection{\texorpdfstring{insertOrdered()}{insertOrdered()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{structNode}{Node}} \texorpdfstring{$\ast$}{*} insert\+Ordered (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structNode}{Node}} \texorpdfstring{$\ast$}{*}}]{list,  }\item[{int}]{value }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{list_8h_a44f362cd139a5591a5d2c6bd9d9ad1ee_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=240pt]{list_8h_a44f362cd139a5591a5d2c6bd9d9ad1ee_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{list_8h_aa2f1cca27224a279542ac4da735262d8}\label{list_8h_aa2f1cca27224a279542ac4da735262d8} 
+\index{list.h@{list.h}!listAddValues@{listAddValues}}
+\index{listAddValues@{listAddValues}!list.h@{list.h}}
+\doxysubsubsection{\texorpdfstring{listAddValues()}{listAddValues()}}
+{\footnotesize\ttfamily int list\+Add\+Values (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structList}{List}} \texorpdfstring{$\ast$}{*}}]{list }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=252pt]{list_8h_aa2f1cca27224a279542ac4da735262d8_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=240pt]{list_8h_aa2f1cca27224a279542ac4da735262d8_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{list_8h_ae3602675afd439dbfd2f70b912c23420}\label{list_8h_ae3602675afd439dbfd2f70b912c23420} 
+\index{list.h@{list.h}!listLengthIt@{listLengthIt}}
+\index{listLengthIt@{listLengthIt}!list.h@{list.h}}
+\doxysubsubsection{\texorpdfstring{listLengthIt()}{listLengthIt()}}
+{\footnotesize\ttfamily int list\+Length\+It (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structList}{List}} \texorpdfstring{$\ast$}{*}}]{list }\end{DoxyParamCaption})}
+
+\Hypertarget{list_8h_a68e89e1474e0f2349f72df6b29f53fbb}\label{list_8h_a68e89e1474e0f2349f72df6b29f53fbb} 
+\index{list.h@{list.h}!listLengthIterative@{listLengthIterative}}
+\index{listLengthIterative@{listLengthIterative}!list.h@{list.h}}
+\doxysubsubsection{\texorpdfstring{listLengthIterative()}{listLengthIterative()}}
+{\footnotesize\ttfamily int list\+Length\+Iterative (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structNode}{Node}} \texorpdfstring{$\ast$}{*}}]{list }\end{DoxyParamCaption})}
+
+\Hypertarget{list_8h_a402dfa43287a9bb69c8864a02ae60fbd}\label{list_8h_a402dfa43287a9bb69c8864a02ae60fbd} 
+\index{list.h@{list.h}!listLengthRec@{listLengthRec}}
+\index{listLengthRec@{listLengthRec}!list.h@{list.h}}
+\doxysubsubsection{\texorpdfstring{listLengthRec()}{listLengthRec()}}
+{\footnotesize\ttfamily int list\+Length\+Rec (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structList}{List}} \texorpdfstring{$\ast$}{*}}]{list }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=321pt]{list_8h_a402dfa43287a9bb69c8864a02ae60fbd_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{list_8h_ae3f38a002009f269fa9cbc7b3709ec67}\label{list_8h_ae3f38a002009f269fa9cbc7b3709ec67} 
+\index{list.h@{list.h}!listLengthRecursively@{listLengthRecursively}}
+\index{listLengthRecursively@{listLengthRecursively}!list.h@{list.h}}
+\doxysubsubsection{\texorpdfstring{listLengthRecursively()}{listLengthRecursively()}}
+{\footnotesize\ttfamily int list\+Length\+Recursively (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structNode}{Node}} \texorpdfstring{$\ast$}{*}}]{list }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=202pt]{list_8h_ae3f38a002009f269fa9cbc7b3709ec67_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=321pt]{list_8h_ae3f38a002009f269fa9cbc7b3709ec67_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{list_8h_a3cb1f7799644db8cb758f3716dd42797}\label{list_8h_a3cb1f7799644db8cb758f3716dd42797} 
+\index{list.h@{list.h}!listSum@{listSum}}
+\index{listSum@{listSum}!list.h@{list.h}}
+\doxysubsubsection{\texorpdfstring{listSum()}{listSum()}}
+{\footnotesize\ttfamily int list\+Sum (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structNode}{Node}} \texorpdfstring{$\ast$}{*}}]{list }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=133pt]{list_8h_a3cb1f7799644db8cb758f3716dd42797_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=329pt]{list_8h_a3cb1f7799644db8cb758f3716dd42797_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{list_8h_a7de835c159238d9dd43ade75eb875eab}\label{list_8h_a7de835c159238d9dd43ade75eb875eab} 
+\index{list.h@{list.h}!prependList@{prependList}}
+\index{prependList@{prependList}!list.h@{list.h}}
+\doxysubsubsection{\texorpdfstring{prependList()}{prependList()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{structNode}{Node}} \texorpdfstring{$\ast$}{*} prepend\+List (\begin{DoxyParamCaption}\item[{int}]{value,  }\item[{\mbox{\hyperlink{structNode}{Node}} \texorpdfstring{$\ast$}{*}}]{list }\end{DoxyParamCaption})}
+
+
+
+Prepends a value to the beginning of a list. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & Value to prepend. \\
+\hline
+{\em list} & Pointer to the head node of the list. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+New head of the list. 
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=263pt]{list_8h_a7de835c159238d9dd43ade75eb875eab_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{list_8h_a7de835c159238d9dd43ade75eb875eab_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{list_8h_a621d2d4b63e0777d8cd273f641589235}\label{list_8h_a621d2d4b63e0777d8cd273f641589235} 
+\index{list.h@{list.h}!printElements@{printElements}}
+\index{printElements@{printElements}!list.h@{list.h}}
+\doxysubsubsection{\texorpdfstring{printElements()}{printElements()}}
+{\footnotesize\ttfamily void print\+Elements (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structNode}{Node}} \texorpdfstring{$\ast$}{*}}]{list }\end{DoxyParamCaption})}
+
+
+
+Prints the linked list in a "{}1 -\/$>$ 2 -\/$>$ 3"{} style. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em list} & Pointer to the head node. \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=165pt]{list_8h_a621d2d4b63e0777d8cd273f641589235_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{list_8h_a621d2d4b63e0777d8cd273f641589235_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{list_8h_a44af6806ae769b7f6e7f901bb75978c6}\label{list_8h_a44af6806ae769b7f6e7f901bb75978c6} 
+\index{list.h@{list.h}!printLis@{printLis}}
+\index{printLis@{printLis}!list.h@{list.h}}
+\doxysubsubsection{\texorpdfstring{printLis()}{printLis()}}
+{\footnotesize\ttfamily void print\+Lis (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structList}{List}} \texorpdfstring{$\ast$}{*}}]{list }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=346pt]{list_8h_a44af6806ae769b7f6e7f901bb75978c6_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=210pt]{list_8h_a44af6806ae769b7f6e7f901bb75978c6_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{list_8h_a793fc22f6b0df1cef102656de7e15c9d}\label{list_8h_a793fc22f6b0df1cef102656de7e15c9d} 
+\index{list.h@{list.h}!printList@{printList}}
+\index{printList@{printList}!list.h@{list.h}}
+\doxysubsubsection{\texorpdfstring{printList()}{printList()}}
+{\footnotesize\ttfamily void print\+List (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structNode}{Node}} \texorpdfstring{$\ast$}{*}}]{list }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=257pt]{list_8h_a793fc22f6b0df1cef102656de7e15c9d_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=302pt]{list_8h_a793fc22f6b0df1cef102656de7e15c9d_icgraph}
+\end{center}
+\end{figure}

@@ -1,0 +1,8 @@
+<map id="heightTree" name="heightTree">
+<area shape="rect" id="Node000001" title=" " alt="" coords="261,29,352,55"/>
+<area shape="poly" id="edge3_Node000001_Node000001" title=" " alt="" coords="331,18,324,11,307,8,292,10,284,15,282,20,287,28,282,30,277,21,280,11,290,5,307,3,327,6,335,15"/>
+<area shape="rect" id="Node000002" href="$BinaryTree_8c.html#af346316a7c772f06d63936daf0dfdb33" title=" " alt="" coords="108,29,213,55"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="248,45,214,45,214,39,248,39"/>
+<area shape="rect" id="Node000003" href="$BinaryTree_8c.html#a840291bc02cba5474a4cb46a9b9566fe" title=" " alt="" coords="5,29,60,55"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="94,45,60,45,60,39,94,39"/>
+</map>

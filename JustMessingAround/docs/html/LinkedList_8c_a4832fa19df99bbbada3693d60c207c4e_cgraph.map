@@ -1,0 +1,7 @@
+<map id="filteringList" name="filteringList">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,31,100,56"/>
+<area shape="rect" id="Node000002" href="$LinkedList_8c.html#a1f01a4a982d32e86485378f094a3a564" title="Creates a generic node with a copy of the given value." alt="" coords="148,5,295,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="100,34,134,28,135,34,101,39"/>
+<area shape="rect" id="Node000003" href="$LinkedList_8c.html#aae9a33e7c13f518734e8efb75e4af226" title=" " alt="" coords="149,55,293,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="101,47,136,53,135,58,100,53"/>
+</map>

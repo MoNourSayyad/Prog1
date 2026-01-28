@@ -1,0 +1,15 @@
+<map id="InsertionWithOrder" name="InsertionWithOrder">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,43,151,68"/>
+<area shape="rect" id="Node000002" href="$BinaryTree_8c.html#a0d688d5031295a7b85271c2db380f7d7" title=" " alt="" coords="199,43,309,68"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="151,53,185,53,185,58,151,58"/>
+<area shape="poly" id="edge4_Node000002_Node000002" title=" " alt="" coords="227,44,222,34,225,25,236,18,254,16,276,19,285,28,281,32,273,24,254,21,238,23,229,28,227,34,232,41"/>
+<area shape="rect" id="Node000003" href="$BinaryTree_8c.html#a7c5bbbd444bb3b83d7a0a96f335b1860" title=" " alt="" coords="368,12,459,37"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="309,42,354,33,355,39,310,47"/>
+<area shape="rect" id="Node000005" href="$BinaryTree_8c.html#a71e7914c55404f04ed2d79f1c82f1592" title=" " alt="" coords="357,67,469,92"/>
+<area shape="poly" id="edge5_Node000002_Node000005" title=" " alt="" coords="310,61,344,66,344,72,309,66"/>
+<area shape="rect" id="Node000004" href="$BinaryTree_8c.html#a66d0e4122b2b93615fdb613806a21748" title=" " alt="" coords="517,5,632,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="459,20,503,18,503,24,459,25"/>
+<area shape="rect" id="Node000006" href="$BinaryTree_8c.html#ab8b3af6cb033fd720125df09e44fcd8b" title=" " alt="" coords="532,79,617,104"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="470,81,519,85,518,90,470,86"/>
+<area shape="poly" id="edge7_Node000006_Node000006" title=" " alt="" coords="548,80,542,70,545,61,556,54,575,52,597,55,606,64,603,68,594,60,575,57,558,59,549,64,547,70,552,77"/>
+</map>

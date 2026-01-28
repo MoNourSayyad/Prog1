@@ -1,0 +1,12 @@
+<map id="efficientTreesSearch" name="efficientTreesSearch">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,29,159,55"/>
+<area shape="rect" id="Node000002" href="$BinaryTree_8c.html#a58ddff3cfcc017ab695e3a9245824a88" title=" " alt="" coords="207,29,348,55"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="159,39,193,39,193,45,159,45"/>
+<area shape="rect" id="Node000003" href="$BinaryTree_8c.html#a5226618ad87134b127ebbe6ceefa4702" title=" " alt="" coords="396,29,587,55"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="348,39,382,39,382,45,348,45"/>
+<area shape="rect" id="Node000004" href="$BinaryTree_8c.html#a71e7914c55404f04ed2d79f1c82f1592" title=" " alt="" coords="635,29,747,55"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="587,39,621,39,621,45,587,45"/>
+<area shape="rect" id="Node000005" href="$BinaryTree_8c.html#ab8b3af6cb033fd720125df09e44fcd8b" title=" " alt="" coords="795,29,880,55"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="747,39,781,39,781,45,747,45"/>
+<area shape="poly" id="edge5_Node000005_Node000005" title=" " alt="" coords="812,31,807,21,810,11,820,5,837,3,858,6,866,15,863,18,855,11,837,8,822,10,814,15,813,20,817,28"/>
+</map>
