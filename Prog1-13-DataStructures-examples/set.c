@@ -16,9 +16,9 @@ static SetNode* new_element(void* element, SetNode* next) {
 struct Set {
     int n_buckets; // number of buckets
     SetNode** buckets; // array of buckets, length n (each element is a pointer to an element)
-    int n_elements; // number of elements
-    HashFun hash;
-    EqualFun equal;
+    int n_elements; // number of elements currently in the set
+    HashFun hash;  // function for hashing
+    EqualFun equal;  // function for equality checking
 }; 
 
 Set* new_set(int n_buckets, HashFun hash, EqualFun equal) {
@@ -93,7 +93,7 @@ Iterator* new_iterator(Set* s) {
 bool has_next(Iterator* iter) { // does not change state of iterator
     if (iter->node != NULL && iter->node->next != NULL) { // in bucket list
         return true; // there is another element in this bucket list
-    } else { // try next bucket lists
+    } else { // try next bucket lists // iteration hasn’t started yet (node == NULL), or we are at the end of a bucket’s list
         Set* s = iter->s;
         for (int i = iter->bucket_index + 1; i < s->n_buckets; i++) {
             if (s->buckets[i] != NULL) return true; // bucket i is not empty
@@ -124,17 +124,17 @@ void free_iterator(Iterator* iter) {
 }
 
 //////////////////////////////////////////////////////////////
-
-Set* intersect_set(Set* a, Set* b) {
-    if (a->hash != b->hash || a->equal != b->equal) {
-        printsln("Error: a and b have elements of different types");
+// a ∩ b
+Set* intersect_set(Set* a, Set* b) { // takes two sets a and b, returns a new set, that new set will contain elements common to both a and b.
+    if (a->hash != b->hash || a->equal != b->equal) { // both sets use the same hash and equality func. This ensures: both sets store the same type of elements
+        printsln("Error: a and b have elements of different types"); // If not, comparing elements would be meaningless or unsafe.
         exit(1);
     }
-    Set* result = new_set(a->n_buckets, a->hash, a->equal);
-    Iterator* iter = new_iterator(a);
-    while (has_next(iter)) {
-        void* e = next(iter);
-        if (contains_set(b, e)) add_set(result, e);
+    Set* result = new_set(a->n_buckets, a->hash, a->equal); // Ensures compatibility
+    Iterator* iter = new_iterator(a); // traverse every element in set a
+    while (has_next(iter)) { // continues as long as there is another element in a
+        void* e = next(iter); // stores the current element in e. Here: e is one element from set a
+        if (contains_set(b, e)) add_set(result, e); // whether the same element e also exists in set b 
     }
     free_iterator(iter);
     return result;

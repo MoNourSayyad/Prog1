@@ -8,13 +8,13 @@ make test_map && ./test_map
 #include "../prog1lib/lib/base.h"
 
 static int hash_string(void* x) {
-    String key = x;
+    String key = x; // Converts the void* to a char* so we can work with it as a string.
     int n = s_length(key);
     int hash = 0;
     for (int i = 0; i < n; i++) {
-        hash = hash * 31 + key[i];
+        hash = hash * 31 + key[i];  // key[i] is the ASCII value of the character.
     }
-    if (hash < 0) hash = -hash;
+    if (hash < 0) hash = -hash;  // Buckets are array indices, so we need non-negative integers.
     return hash;
 }
 

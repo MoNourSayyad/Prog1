@@ -59,7 +59,7 @@ bool empty_stack(Stack* s) {
     return s->top == NULL;
 }
 
-int sum(BTNode* tree) {
+int sum(BTNode* tree) { // DFS
     int sum = 0;
     Stack* stack = new_stack();
     push(stack, tree);

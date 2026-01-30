@@ -65,7 +65,7 @@ bool empty_queue(Queue* q) {
     return q->head == NULL;
 }
 
-int sum(BTNode* tree) {
+int sum(BTNode* tree) {  // BFS
     int sum = 0;
     Queue* q = new_queue();
     put_queue(q, tree);

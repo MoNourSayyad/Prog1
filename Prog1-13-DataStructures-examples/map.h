@@ -8,9 +8,9 @@ typedef bool (*EqualFun)(void* object1, void* object2);
 
 typedef struct Map Map;
 
-typedef struct Entry {
-    void* key;
-    void* value;
+typedef struct Entry { //  key-value pair
+    void* key;  // e.g., dog
+    void* value; // e.g., Hund
 } Entry;
 
 // Creates a new map.

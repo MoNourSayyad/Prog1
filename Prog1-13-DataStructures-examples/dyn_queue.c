@@ -25,7 +25,7 @@ typedef struct {
 
 Queue* new_queue(void) {
     Queue* q = xcalloc(1, sizeof(Queue));
-    q->head = NULL; // not necessary if using xcalloc
+    q->head = NULL; // not necessary if using xcalloc  // 
     q->tail = NULL; // not necessary if using xcalloc
     return q;
 }
@@ -40,21 +40,23 @@ void free_queue(Queue* q) {
 }
 
 void put_queue(Queue* q, int x) {
-    Node* t = new_node(x, NULL);
-    if (q->tail != NULL) q->tail->next = t;
-    q->tail = t;
-    if (q->head == NULL) q->head = t;
+    require_not_null(q);
+    Node* t = new_node(x, NULL); // Sets t->next = NULL because it will be the last element of the queue.
+    if (q->tail != NULL) q->tail->next = t;  // Connects the current last node to the new node.
+    q->tail = t; // Updates the queue’s tail pointer.
+    if (q->head == NULL) q->head = t; // The new node is both the first (head) and last (tail) element.
 }
 
 int get_queue(Queue* q) {
-    Node* h = q->head;
+    require_not_null(q);
+    Node* h = q->head; // Stores the current head node
     if (h == NULL) {
         printsln("Error: underflow"); 
         return 0;
     } else {
-        int x = h->value;
+        int x = h->value; // Stores its value
         q->head = h->next;
-        if (q->head == NULL) q->tail = NULL;
+        if (q->head == NULL) q->tail = NULL; // If the queue becomes empty: Sets tail to NULL
         free(h);
         return x;
     }
